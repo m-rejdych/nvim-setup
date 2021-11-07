@@ -2,7 +2,6 @@
 
 local nvim_lsp = require('lspconfig')
 local protocol = require('vim.lsp.protocol')
-local saga = require('lspsaga')
 
 saga.setup()
 
