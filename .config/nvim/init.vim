@@ -67,6 +67,9 @@ set formatoptions+=r
 set splitbelow
 set splitright
 
+" nvim-cmp
+set completeopt=menu,menuone,noselect
+
 "}}}
 
 " Highlights "{{{
