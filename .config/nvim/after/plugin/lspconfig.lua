@@ -3,8 +3,6 @@
 local nvim_lsp = require('lspconfig')
 local protocol = require('vim.lsp.protocol')
 
-saga.setup()
-
 -- Use an on_attach function to only map the following keys
 -- after the language server attaches to the current buffer
 local on_attach = function(client, bufnr)
@@ -50,7 +48,7 @@ local on_attach = function(client, bufnr)
   buf_set_keymap('n', '<space>f', '<cmd>Lspsaga lsp_finder<CR>', opts)
 
   -- nvim-tree
-  buf_set_keymap('n', '<C-n>', '<cmd>:NvimTreeToggle<CR>', opts)
+  buf_set_keymap('n', '<C-s>', '<cmd>:NvimTreeToggle<CR>', opts)
   buf_set_keymap('n', '<C-r>', '<cmd>:NvimTreeRefresh<CR>', opts)
   buf_set_keymap('n', '<C-ff>', '<cmd>:NvimTreeFindFile<CR>', opts)
   --buf_set_keymap('n', '<C-t>', '<cmd>Lspsaga open_floaterm<CR>', opts)
@@ -109,7 +107,7 @@ local capabilities = require('cmp_nvim_lsp').update_capabilities(vim.lsp.protoco
 
 -- SERVERS SETUP
 
-local servers = { 'pyright', 'rust_analyzer', 'tsserver' }
+local servers = { 'pyright', 'rust_analyzer', 'tsserver', 'jsonls', 'html', 'cssls', 'eslint' }
 for _, lsp in ipairs(servers) do
   nvim_lsp[lsp].setup {
     on_attach = on_attach,

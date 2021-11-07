@@ -5,7 +5,7 @@
 brew update
 brew install --HEAD luajit tree-sitter nvim
 brew install grep tmux
-npm i -g typescript typescript-language-server pyright
+npm i -g typescript typescript-language-server pyright vscode-langservers-extracted
 ```
 
 2. Install vim-plug `sh -c 'curl -fLo $HOME/.local/share/nvim/site/autoload/plug.vim --create-dirs \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'`
