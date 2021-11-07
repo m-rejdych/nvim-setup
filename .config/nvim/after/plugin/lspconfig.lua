@@ -54,8 +54,8 @@ local on_attach = function(client, bufnr)
   buf_set_keymap('n', '<C-n>', '<cmd>:NvimTreeToggle<CR>', opts)
   buf_set_keymap('n', '<C-r>', '<cmd>:NvimTreeRefresh<CR>', opts)
   buf_set_keymap('n', '<C-ff>', '<cmd>:NvimTreeFindFile<CR>', opts)
-  -- buf_set_keymap('n', '<A-d>', '<cmd>Lspsaga open_floaterm<CR>', opts)
-  -- buf_set_keymap('n', '<A-d>', '<cmd>Lspsaga close floaterm<CR>', opts)
+  --buf_set_keymap('n', '<C-t>', '<cmd>Lspsaga open_floaterm<CR>', opts)
+  --buf_set_keymap('n', '<Esc>', '<cmd>Lspsaga close floaterm<CR>', opts)
 
   -- FORMAT ON SAVE
 
