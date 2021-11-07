@@ -6,7 +6,7 @@
 ```
 brew update
 brew install --HEAD luajit tree-sitter nvim
-brew install grep
+brew install grep tmux
 npm i -g typescript typescript-language-server pyright
 ```
 
