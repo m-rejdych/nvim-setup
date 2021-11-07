@@ -8,15 +8,17 @@ brew install grep tmux
 npm i -g typescript typescript-language-server pyright vscode-langservers-extracted
 ```
 
-2. Install vim-plug `sh -c 'curl -fLo $HOME/.local/share/nvim/site/autoload/plug.vim --create-dirs \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'`
+2. Install one of [nerd-fonts](https://www.nerdfonts.com/) and enable it in iTerm2
 
-3. Place _nvim_ folder in .config
+3. Install vim-plug `sh -c 'curl -fLo $HOME/.local/share/nvim/site/autoload/plug.vim --create-dirs \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'`
 
-4. Place _.tmux.conf_ in home folder
+4. Place _nvim_ folder in .config
 
-5. Go to _.config/nvim_
+5. Place _.tmux.conf_ in home folder
 
-6. `nvim plug.vim`
+6. Go to _.config/nvim_
 
-7. `:PlugInstall`
+7. `nvim plug.vim`
+
+8. `:PlugInstall`
 
