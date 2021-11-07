@@ -5,7 +5,7 @@
 brew update
 brew install --HEAD luajit tree-sitter nvim
 brew install grep tmux
-npm i -g typescript typescript-language-server pyright vscode-langservers-extracted
+npm i -g typescript typescript-language-server pyright vscode-langservers-extracted prettier
 ```
 
 2. Install one of [nerd-fonts](https://www.nerdfonts.com/) and enable it in iTerm2

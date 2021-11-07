@@ -47,13 +47,6 @@ local on_attach = function(client, bufnr)
   buf_set_keymap('n', '<space>d', '<cmd>Lspsaga preview_definition<CR>', opts)
   buf_set_keymap('n', '<space>f', '<cmd>Lspsaga lsp_finder<CR>', opts)
 
-  -- nvim-tree
-  buf_set_keymap('n', '<C-s>', '<cmd>:NvimTreeToggle<CR>', opts)
-  buf_set_keymap('n', '<C-r>', '<cmd>:NvimTreeRefresh<CR>', opts)
-  buf_set_keymap('n', '<C-ff>', '<cmd>:NvimTreeFindFile<CR>', opts)
-  --buf_set_keymap('n', '<C-t>', '<cmd>Lspsaga open_floaterm<CR>', opts)
-  --buf_set_keymap('n', '<Esc>', '<cmd>Lspsaga close floaterm<CR>', opts)
-
   -- FORMAT ON SAVE
 
   vim.api.nvim_exec([[

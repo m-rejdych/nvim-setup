@@ -1,8 +1,7 @@
-nnoremap <silent>\ <cmd>Telescope find_files<CR>
-nnoremap <silent>' <cmd>Telescope live_grep<CR>
-nnoremap <silent>; <cmd>Telescope buffers<CR>
+vim.cmd('nnoremap <silent>\\ <cmd>Telescope find_files<CR>')
+vim.cmd('nnoremap <silent>\' <cmd>Telescope find_files<CR>')
+vim.cmd('nnoremap <silent>; <cmd>Telescope find_files<CR>')
 
-lua << EOF
 local actions = require('telescope.actions')
 
 require('telescope').setup {
@@ -16,6 +15,7 @@ require('telescope').setup {
       "node_modules",
       "build",
       "dist",
+      "plugged",
     },
   },
   pickers = {
@@ -30,4 +30,3 @@ require('telescope').setup {
     },
   },
 }
-EOF
