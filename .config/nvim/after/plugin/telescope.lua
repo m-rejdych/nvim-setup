@@ -2,6 +2,9 @@ vim.cmd('nnoremap <silent>\\ <cmd>Telescope find_files<CR>')
 vim.cmd('nnoremap <silent>\' <cmd>Telescope find_files<CR>')
 vim.cmd('nnoremap <silent>; <cmd>Telescope find_files<CR>')
 
+vim.cmd('nnoremap <silent>gn <cmd>bn<CR>')
+vim.cmd('nnoremap <silent>gp <cmd>bp<CR>')
+
 local actions = require('telescope.actions')
 
 require('telescope').setup {
