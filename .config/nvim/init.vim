@@ -117,12 +117,15 @@ autocmd FileType yaml setlocal shiftwidth=2 tabstop=2
 
 " Theme
 
-"if exists("&termguicolors") && exists("&winblend")
-  "syntax enable
-  "set termguicolors
-  "runtime ./colors/molokai.vim
-  "colorscheme molokai
-"endif
+if exists("&termguicolors") && exists("&winblend")
+  syntax enable
+  set termguicolors
+  set background=dark
+  let g:gruvbox_material_background = 'hard'
+  let g:gruvbox_material_enable_bold = 1
+  let g:gruvbox_material_transparent_background = 1
+  colorscheme molokai
+endif
 
 " nvim-tree defaults
 
@@ -215,7 +218,6 @@ Plug 'kyazdani42/nvim-tree.lua'
 Plug 'mhartington/formatter.nvim'
 Plug 'nvim-lualine/lualine.nvim'
 Plug 'windwp/nvim-ts-autotag'
-Plug 'tanvirtin/monokai.nvim'
 
 call plug#end()
 
