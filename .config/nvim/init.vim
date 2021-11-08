@@ -70,6 +70,8 @@ set splitright
 " nvim-cmp
 set completeopt=menu,menuone,noselect
 
+let mapleader = " " " map leader to space
+
 "}}}
 
 " Highlights "{{{

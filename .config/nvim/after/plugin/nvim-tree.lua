@@ -1,6 +1,6 @@
 vim.cmd('nnoremap <C-s> :NvimTreeToggle<CR>')
-vim.cmd('nnoremap <C-r> :NvimTreeRefresh<CR>')
-vim.cmd('nnoremap <C-f> :NvimTreeFindFile<CR>')
+vim.cmd('nnoremap <leader>r :NvimTreeRefresh<CR>')
+vim.cmd('nnoremap <leader>f :NvimTreeFindFile<CR>')
 
 require'nvim-tree'.setup {
   disable_netrw       = true,
