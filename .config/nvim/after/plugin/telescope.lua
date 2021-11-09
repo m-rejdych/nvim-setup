@@ -1,6 +1,6 @@
 vim.cmd('nnoremap <silent>\\ <cmd>Telescope find_files<CR>')
-vim.cmd('nnoremap <silent>\' <cmd>Telescope find_files<CR>')
-vim.cmd('nnoremap <silent>; <cmd>Telescope find_files<CR>')
+vim.cmd('nnoremap <silent>\' <cmd>Telescope live_grep<CR>')
+vim.cmd('nnoremap <silent>; <cmd>Telescope buffers<CR>')
 
 vim.cmd('nnoremap <silent>gn <cmd>bn<CR>')
 vim.cmd('nnoremap <silent>gp <cmd>bp<CR>')

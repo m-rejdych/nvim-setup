@@ -119,6 +119,7 @@ autocmd FileType yaml setlocal shiftwidth=2 tabstop=2
 
 nnoremap <silent><leader>. <cmd>:vertical resize +5<CR>
 nnoremap <silent><leader>, <cmd>:vertical resize -5<CR>
+nnoremap <silent><leader>ve <cmd>:Vex<CR>
 
 " Theme
 
