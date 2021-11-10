@@ -120,6 +120,8 @@ autocmd FileType yaml setlocal shiftwidth=2 tabstop=2
 nnoremap <silent><leader>. <cmd>:vertical resize +5<CR>
 nnoremap <silent><leader>, <cmd>:vertical resize -5<CR>
 nnoremap <silent><leader>ve <cmd>:Vex<CR>
+nnoremap <silent><leader>ee :Exp<CR>
+nnoremap <silent><leader>he :Sex<CR>
 nnoremap <silent><leader>mt diffget //2<CR>
 nnoremap <silent><leader>mm diffget //3<CR>
 
