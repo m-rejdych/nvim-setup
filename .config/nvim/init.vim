@@ -116,6 +116,9 @@ autocmd FileType ruby setlocal shiftwidth=2 tabstop=2
 autocmd FileType yaml setlocal shiftwidth=2 tabstop=2
 
 "Global keybindings
+"
+"Runs python file
+autocmd FileType python map <buffer><leader>pp :w<CR>:exec '!python3' shellescape(@%, 1)<CR>
 
 nnoremap <silent><leader>. <cmd>:vertical resize +5<CR>
 nnoremap <silent><leader>, <cmd>:vertical resize -5<CR>
