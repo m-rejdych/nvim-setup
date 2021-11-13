@@ -1,5 +1,7 @@
 # Nvim setup
 
+**Configured with NVIM v0.6.0-dev+560-g1fdbd29df**
+
 1. Install dependencies
 ```
 brew update
