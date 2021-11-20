@@ -142,7 +142,7 @@ if exists("&termguicolors") && exists("&winblend")
   let g:gruvbox_material_background = 'hard'
   let g:gruvbox_material_enable_bold = 1
   let g:gruvbox_material_transparent_background = 1
-  colorscheme molokai
+  colorscheme gruvbox-material
 endif
 
 call plug#begin('~/.config/nvim/plugged')

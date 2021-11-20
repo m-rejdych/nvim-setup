@@ -5,7 +5,7 @@
 1. Install dependencies
 ```
 brew update
-brew install --HEAD luajit tree-sitter nvim
+brew install --HEAD luajit tree-sitter neovim
 brew install grep ripgrep tmux
 npm i -g typescript typescript-language-server pyright vscode-langservers-extracted prettier
 ```
