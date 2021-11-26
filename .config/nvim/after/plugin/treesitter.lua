@@ -16,6 +16,8 @@ require 'nvim-treesitter.configs'.setup {
     "html",
     "scss",
     "css",
+    "dart",
+    "python",
     "typescript",
     "javascript",
   }
