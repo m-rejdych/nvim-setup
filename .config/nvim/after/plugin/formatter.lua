@@ -16,6 +16,7 @@ require('formatter').setup({
     typescript = prettier,
     typescriptreact = prettier,
     ["typescript.tsx"] = prettier,
+    json = prettier,
   },
 })
 
