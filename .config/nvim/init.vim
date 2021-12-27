@@ -166,6 +166,7 @@ Plug 'nvim-telescope/telescope.nvim'
 Plug 'mhartington/formatter.nvim'
 Plug 'nvim-lualine/lualine.nvim'
 Plug 'windwp/nvim-ts-autotag'
+Plug 'dart-lang/dart-vim-plugin'
 
 call plug#end()
 
