@@ -120,8 +120,10 @@ autocmd FileType yaml setlocal shiftwidth=2 tabstop=2
 "Runs python file
 autocmd FileType python map <buffer><leader>pp :w<CR>:exec '!python3' shellescape(@%, 1)<CR>
 
-nnoremap <silent><leader>. <cmd>:vertical resize +5<CR>
-nnoremap <silent><leader>, <cmd>:vertical resize -5<CR>
+nnoremap <silent><leader>l <cmd>:vertical resize +5<CR>
+nnoremap <silent><leader>h <cmd>:vertical resize -5<CR>
+nnoremap <silent><leader>k <cmd>:resize -5<CR>
+nnoremap <silent><leader>j <cmd>:resize +5<CR>
 nnoremap <silent><leader>ve <cmd>:Vex<CR>
 nnoremap <silent><leader>ee :Exp<CR>
 nnoremap <silent><leader>he :Sex<CR>
