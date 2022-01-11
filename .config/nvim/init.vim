@@ -141,10 +141,13 @@ if exists("&termguicolors") && exists("&winblend")
   syntax enable
   set termguicolors
   set background=dark
-  let g:gruvbox_material_background = 'hard'
-  let g:gruvbox_material_enable_bold = 1
-  let g:gruvbox_material_transparent_background = 1
-  colorscheme gruvbox-material
+  colorscheme gruvbox
+  let g:gruvbox_transparent_bg = 1
+  let g:gruvbox_invert_selection = 0
+  colorscheme gruvbox
+  highlight Normal     ctermbg=NONE guibg=NONE
+  highlight LineNr     ctermbg=NONE guibg=NONE
+  highlight SignColumn ctermbg=NONE guibg=NONE
 endif
 
 call plug#begin('~/.config/nvim/plugged')
