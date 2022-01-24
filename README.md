@@ -1,6 +1,6 @@
 # Nvim setup
 
-**Configured with NVIM v0.6.0-dev+560-g1fdbd29df**
+**Configured with NVIM NVIM v0.7.0-dev+921-g1907a9481
 
 1. Install dependencies
 ```
