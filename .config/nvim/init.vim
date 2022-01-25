@@ -157,7 +157,6 @@ Plug 'tpope/vim-rhubarb'
 Plug 'cohama/lexima.vim'
 
 Plug 'neovim/nvim-lspconfig'
-Plug 'tami5/lspsaga.nvim'
 Plug 'nvim-treesitter/nvim-treesitter', { 'do': ':TSUpdate'  }
 Plug 'hrsh7th/cmp-nvim-lsp'
 Plug 'hrsh7th/cmp-buffer'
