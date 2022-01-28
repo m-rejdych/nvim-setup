@@ -8,6 +8,16 @@ local prettier = {
   end
 }
 
+local rust_fmt = {
+  function()
+    return {
+      exe = "rustfmt",
+      args = {"--emit=stdout"},
+      stdin = true
+    }
+  end
+}
+
 require('formatter').setup({
   filetype = {
     javascript = prettier,
@@ -17,6 +27,7 @@ require('formatter').setup({
     typescriptreact = prettier,
     ["typescript.tsx"] = prettier,
     json = prettier,
+    rust = rust_fmt,
   },
 })
 

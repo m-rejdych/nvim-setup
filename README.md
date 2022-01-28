@@ -7,6 +7,7 @@
 brew update
 brew install --HEAD luajit tree-sitter neovim
 brew install grep ripgrep tmux
+brew install rust-analyzer
 npm i -g typescript typescript-language-server pyright vscode-langservers-extracted prettier
 ```
 
