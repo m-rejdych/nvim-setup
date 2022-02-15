@@ -7,8 +7,10 @@
 brew update
 brew install --HEAD luajit tree-sitter neovim
 brew install grep ripgrep tmux
-brew install rust-analyzer
 npm i -g typescript typescript-language-server pyright vscode-langservers-extracted prettier
+
+brew install rust-analyzer
+rustup component add rust-src
 ```
 
 2. Install one of [nerd-fonts](https://www.nerdfonts.com/) and enable it in iTerm2
