@@ -14,6 +14,7 @@ require('telescope').setup {
       "node_modules",
       "build",
       "dist",
+      "target",
       "plugged",
       "package-lock.json",
     },
