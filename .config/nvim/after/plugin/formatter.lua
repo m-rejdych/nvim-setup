@@ -32,5 +32,5 @@ require('formatter').setup({
   },
 })
 
-vim.cmd('nnoremap <silent>ff <cmd>Format<CR>')
-vim.cmd('nnoremap <silent>fd <cmd>DartFmt<CR>')
+vim.cmd('nnoremap <silent><leader>ff <cmd>Format<CR>')
+vim.cmd('nnoremap <silent><leader>fd <cmd>DartFmt<CR>')
