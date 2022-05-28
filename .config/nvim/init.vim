@@ -21,6 +21,7 @@ set hlsearch
 set showcmd
 set cmdheight=1
 set laststatus=2
+set winbar=%f
 set scrolloff=10
 set expandtab
 "let loaded_matchparen = 1
