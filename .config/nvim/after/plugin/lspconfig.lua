@@ -34,6 +34,7 @@ local on_attach = function(client, bufnr)
   -- buf_set_keymap('n', '<space>q', '<cmd>lua vim.lsp.diagnostic.set_loclist()<CR>', opts)
   -- buf_set_keymap('n', 'ff', '<cmd>lua vim.lsp.buf.formatting()<CR>', opts)
   buf_set_keymap('n', '<leader>e', '<cmd>lua vim.diagnostic.open_float()<CR>', opts)
+  buf_set_keymap('n', '<leader>ff', '<cmd>lua vim.lsp.buf.format { async = true }<CR>', opts)
 
   -- FORMAT ON SAVE
 

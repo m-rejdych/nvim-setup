@@ -8,16 +8,6 @@ local prettier = {
   end
 }
 
-local rust_fmt = {
-  function()
-    return {
-      exe = "rustfmt",
-      args = {"--emit=stdout"},
-      stdin = true
-    }
-  end
-}
-
 require('formatter').setup({
   filetype = {
     javascript = prettier,
@@ -28,9 +18,9 @@ require('formatter').setup({
     ["typescript.tsx"] = prettier,
     json = prettier,
     css = prettier,
-    rust = rust_fmt,
   },
 })
 
-vim.cmd('nnoremap <silent><leader>ff <cmd>Format<CR>')
+-- Prettier and DartFmt
+vim.cmd('nnoremap <silent><leader>fp <cmd>Format<CR>')
 vim.cmd('nnoremap <silent><leader>fd <cmd>DartFmt<CR>')
