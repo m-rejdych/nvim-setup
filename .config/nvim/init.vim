@@ -1,3 +1,30 @@
+" Plugins
+
+call plug#begin('~/.config/nvim/plugged')
+
+Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-rhubarb'
+Plug 'cohama/lexima.vim'
+
+Plug 'neovim/nvim-lspconfig'
+Plug 'nvim-treesitter/nvim-treesitter', { 'do': ':TSUpdate'  }
+Plug 'hrsh7th/cmp-nvim-lsp'
+Plug 'hrsh7th/cmp-buffer'
+Plug 'hrsh7th/cmp-path'
+Plug 'hrsh7th/cmp-cmdline'
+Plug 'hrsh7th/nvim-cmp'
+Plug 'hrsh7th/cmp-vsnip'
+Plug 'hrsh7th/vim-vsnip'
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim'
+Plug 'mhartington/formatter.nvim'
+Plug 'nvim-lualine/lualine.nvim'
+Plug 'windwp/nvim-ts-autotag'
+Plug 'dart-lang/dart-vim-plugin'
+Plug 'rebelot/kanagawa.nvim'
+
+call plug#end()
+
 " Fundamentals "{{{
 " ---------------------------------------------------------------------
 
@@ -142,36 +169,10 @@ if exists("&termguicolors") && exists("&winblend")
   syntax enable
   set termguicolors
   set background=dark
-  colorscheme gruvbox
-  let g:gruvbox_transparent_bg = 1
-  let g:gruvbox_invert_selection = 0
-  colorscheme gruvbox
+"  let g:gruvbox_transparent_bg = 1
+"  let g:gruvbox_invert_selection = 0
+"  colorscheme gruvbox
   highlight Normal     ctermbg=NONE guibg=NONE
   highlight LineNr     ctermbg=NONE guibg=NONE
   highlight SignColumn ctermbg=NONE guibg=NONE
 endif
-
-call plug#begin('~/.config/nvim/plugged')
-
-Plug 'tpope/vim-fugitive'
-Plug 'tpope/vim-rhubarb'
-Plug 'cohama/lexima.vim'
-
-Plug 'neovim/nvim-lspconfig'
-Plug 'nvim-treesitter/nvim-treesitter', { 'do': ':TSUpdate'  }
-Plug 'hrsh7th/cmp-nvim-lsp'
-Plug 'hrsh7th/cmp-buffer'
-Plug 'hrsh7th/cmp-path'
-Plug 'hrsh7th/cmp-cmdline'
-Plug 'hrsh7th/nvim-cmp'
-Plug 'hrsh7th/cmp-vsnip'
-Plug 'hrsh7th/vim-vsnip'
-Plug 'nvim-lua/plenary.nvim'
-Plug 'nvim-telescope/telescope.nvim'
-Plug 'mhartington/formatter.nvim'
-Plug 'nvim-lualine/lualine.nvim'
-Plug 'windwp/nvim-ts-autotag'
-Plug 'dart-lang/dart-vim-plugin'
-
-call plug#end()
-
