@@ -22,6 +22,7 @@ Plug 'nvim-lualine/lualine.nvim'
 Plug 'windwp/nvim-ts-autotag'
 Plug 'dart-lang/dart-vim-plugin'
 Plug 'rebelot/kanagawa.nvim'
+Plug 'shaunsingh/nord.nvim'
 
 call plug#end()
 
