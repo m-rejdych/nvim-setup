@@ -23,6 +23,7 @@ Plug 'windwp/nvim-ts-autotag'
 Plug 'dart-lang/dart-vim-plugin'
 Plug 'rebelot/kanagawa.nvim'
 Plug 'shaunsingh/nord.nvim'
+Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
 
 call plug#end()
 
