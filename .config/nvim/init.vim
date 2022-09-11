@@ -21,9 +21,8 @@ Plug 'mhartington/formatter.nvim'
 Plug 'nvim-lualine/lualine.nvim'
 Plug 'windwp/nvim-ts-autotag'
 Plug 'dart-lang/dart-vim-plugin'
-Plug 'rebelot/kanagawa.nvim'
-Plug 'shaunsingh/nord.nvim'
 Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
+Plug 'olivercederborg/poimandres.nvim'
 
 call plug#end()
 
