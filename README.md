@@ -1,9 +1,10 @@
 # Nvim setup
 
-**Configured with NVIM NVIM v0.7.0-dev+921-g1907a9481
+**Configured with NVIM NVIM v0.8.0-dev-2518-gad2d6a624-dirty**
 
 1. Install dependencies
 ```
+// General dependencies
 brew update
 brew install --HEAD luajit tree-sitter neovim
 brew install grep ripgrep tmux
@@ -11,7 +12,7 @@ npm i -g typescript typescript-language-server pyright vscode-langservers-extrac
 
 brew install rust-analyzer
 
-// rust setup
+// rust dependencies
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 rustup component add rust-src
 ```
