@@ -3,4 +3,4 @@ require('poimandres').setup {
   disable_italics = true,
 }
 
-vim.cmd[[colorscheme poimandres]]
+-- vim.cmd[[colorscheme poimandres]]
