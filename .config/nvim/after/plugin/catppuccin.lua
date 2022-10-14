@@ -1,0 +1,9 @@
+require('catppuccin').setup({
+  transparent_background = true,
+  term_colors = true,
+  styles = {
+    conditionals = {},
+  },
+})
+
+vim.cmd('colorscheme catppuccin')

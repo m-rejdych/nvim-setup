@@ -24,6 +24,7 @@ Plug 'dart-lang/dart-vim-plugin'
 Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
 Plug 'olivercederborg/poimandres.nvim'
 Plug 'sainnhe/gruvbox-material'
+Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
 
 call plug#end()
 
