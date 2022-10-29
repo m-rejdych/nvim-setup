@@ -8,7 +8,7 @@
 brew update
 brew install --HEAD luajit tree-sitter neovim
 brew install grep ripgrep tmux
-npm i -g typescript typescript-language-server pyright vscode-langservers-extracted prettier @prisma/language-server
+npm i -g typescript typescript-language-server pyright vscode-langservers-extracted prettier @prisma/language-server @tailwindcss/language-server
 
 brew install rust-analyzer
 
