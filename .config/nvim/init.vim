@@ -109,6 +109,7 @@ let mapleader = " " " map leader to space
 " ---------------------------------------------------------------------
 "set cursorline
 "set cursorcolumn
+set guicursor=i:block
 
 " Set cursor line color on visual mode
 "highlight Visual cterm=NONE ctermbg=236 ctermfg=NONE guibg=Grey40
