@@ -165,6 +165,8 @@ nnoremap <silent><leader>cab <cmd>bufdo bw<CR>
 
 nnoremap n nzzzv
 nnoremap N Nzzzv
+nnoremap <C-d> <C-d>zz
+nnoremap <C-u> <C-u>zz
 nnoremap J mzJ`z
 
 " Theme
