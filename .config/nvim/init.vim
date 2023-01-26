@@ -25,6 +25,7 @@ Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
 Plug 'olivercederborg/poimandres.nvim'
 Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
 Plug 'sainnhe/gruvbox-material'
+Plug 'rebelot/kanagawa.nvim'
 
 call plug#end()
 

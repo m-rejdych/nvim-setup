@@ -1,4 +1,4 @@
-require 'nvim-treesitter.configs'.setup {
+require('nvim-treesitter.configs').setup {
   highlight = {
     enable = true,
     disable = {},
@@ -21,5 +21,8 @@ require 'nvim-treesitter.configs'.setup {
     "typescript",
     "javascript",
     "rust",
+    "lua",
+    "vim",
+    "prisma",
   }
 }
