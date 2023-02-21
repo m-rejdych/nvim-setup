@@ -1,7 +1,7 @@
-require('tokyonight').setup({
-  style = 'night',
-  keywords = { italic = false },
-  transparent = true,
-})
-
-vim.cmd('colorscheme tokyonight-night')
+-- require('tokyonight').setup({
+--   style = 'night',
+--   keywords = { italic = false },
+--   transparent = true,
+-- })
+-- 
+-- vim.cmd('colorscheme tokyonight-night')

@@ -21,7 +21,7 @@ Plug 'mhartington/formatter.nvim'
 Plug 'nvim-lualine/lualine.nvim'
 Plug 'windwp/nvim-ts-autotag'
 Plug 'dart-lang/dart-vim-plugin'
-Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
+Plug 'rose-pine/neovim', { 'as': 'rose-pine' }
 
 call plug#end()
 
