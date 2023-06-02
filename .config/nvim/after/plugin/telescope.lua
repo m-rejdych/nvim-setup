@@ -1,5 +1,5 @@
 vim.cmd('nnoremap <silent><leader>\\ <cmd>Telescope find_files<CR>')
-vim.cmd('nnoremap <silent><leader>\' <cmd>Telescope live_grep<CR>')
+vim.cmd('nnoremap <silent><leader>/ <cmd>Telescope live_grep<CR>')
 vim.cmd('nnoremap <silent><leader>; <cmd>Telescope buffers<CR>')
 vim.cmd('nnoremap <silent><leader>sb <cmd>Telescope current_buffer_fuzzy_find<CR>')
 
