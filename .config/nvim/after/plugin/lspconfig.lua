@@ -2,6 +2,16 @@
 
 local nvim_lsp = require('lspconfig')
 local protocol = require('vim.lsp.protocol')
+local border = {
+      {"╭", "FloatBorder"},
+      {"─", "FloatBorder"},
+      {"╮", "FloatBorder"},
+      {"│", "FloatBorder"},
+      {"╯", "FloatBorder"},
+      {"─", "FloatBorder"},
+      {"╰", "FloatBorder"},
+      {"│", "FloatBorder"},
+}
 
 -- Use an on_attach function to only map the following keys
 -- after the language server attaches to the current buffer
@@ -45,11 +55,27 @@ local on_attach = function(client, bufnr)
 --  augroup END
 --  ]], true)
 
+-- DIAGNOSTIC BORDER
+
+  vim.diagnostic.config{
+    float={border = border}
+  }
+
 end
 
 -- COMPLETION
 
 local capabilities = require('cmp_nvim_lsp').default_capabilities(vim.lsp.protocol.make_client_capabilities())
+
+-- BORDERS
+
+vim.cmd [[autocmd! ColorScheme * highlight NormalFloat guibg=#1f2335]]
+vim.cmd [[autocmd! ColorScheme * highlight FloatBorder guifg=white]]
+
+local handlers =  {
+  ["textDocument/hover"] =  vim.lsp.with(vim.lsp.handlers.hover, {border = border}),
+  ["textDocument/signatureHelp"] =  vim.lsp.with(vim.lsp.handlers.signature_help, {border = border}),
+}
 
 -- SERVERS SETUP
 
@@ -58,5 +84,6 @@ for _, lsp in ipairs(servers) do
   nvim_lsp[lsp].setup {
     on_attach = on_attach,
     capabilities = capabilities,
+    handlers = handlers,
   }
 end
