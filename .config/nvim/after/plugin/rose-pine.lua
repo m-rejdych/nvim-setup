@@ -2,9 +2,11 @@
 	--- @usage 'main' | 'moon'
   variant = 'main',
   dark_variant = 'main',
-	disable_background = true,
-	disable_float_background = true,
-	disable_italics = true,
+  styles = {
+    bold = false,
+    transparency = true,
+    italic = false,
+  },
 })
 
 vim.cmd('colorscheme rose-pine')
