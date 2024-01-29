@@ -24,5 +24,7 @@ require('nvim-treesitter.configs').setup {
     "lua",
     "vim",
     "prisma",
+    "markdown",
+    "markdown_inline",
   }
 }

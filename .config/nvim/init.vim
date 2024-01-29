@@ -54,6 +54,8 @@ set expandtab
 "let loaded_matchparen = 1
 set shell=zsh
 set backupskip=/tmp/*,/private/tmp/*
+"obsidian requirement
+set conceallevel=1
 
 " incremental substitution (neovim)
 if has('nvim')
