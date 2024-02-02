@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6f20bab4fa69dfbb",
+        "id": "35422f9435ff14be",
         "type": "tabs",
         "children": [
           {
-            "id": "7d73396f667bf2bb",
+            "id": "7ed649a0441d0629",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -115,6 +115,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -123,6 +124,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7d73396f667bf2bb",
-  "lastOpenFiles": []
+  "active": "7ed649a0441d0629",
+  "lastOpenFiles": [
+    "quick_notes/02-02-2024 21.38.md",
+    "Excalidraw/Drawing 2024-02-02 20.57.28.excalidraw.md",
+    "templates/task.md",
+    "Excalidraw/Template.excalidraw.md",
+    "Excalidraw",
+    "tasks",
+    "2024-01-30.md",
+    "quick_notes/29-01-2024 23.55.md",
+    "daily_notes",
+    "quick_notes/Quick note 29-01-2024 23.52.md",
+    "templates/quick_note.md",
+    "quick_notes",
+    "meetings/Fendi daily 29-01-2024 23.45.md",
+    "meetings",
+    "templates/meeting.md",
+    "templates"
+  ]
 }

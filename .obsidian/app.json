@@ -1,5 +1,7 @@
 {
   "showLineNumber": true,
   "vimMode": true,
-  "promptDelete": false
+  "promptDelete": false,
+  "attachmentFolderPath": "/",
+  "alwaysUpdateLinks": true
 }

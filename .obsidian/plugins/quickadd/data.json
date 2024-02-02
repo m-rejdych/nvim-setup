@@ -2,18 +2,113 @@
   "choices": [
     {
       "id": "b785b27f-b65e-4562-9549-314615e95fa5",
-      "name": "new_meeting",
+      "name": "Meeting",
       "type": "Template",
       "command": true,
       "templatePath": "templates/meeting.md",
       "fileNameFormat": {
         "enabled": true,
-        "format": "{{name}} {{DATE:DD-MM-YYYY HH.mm}}"
+        "format": "{{name}}"
       },
       "folder": {
         "enabled": true,
         "folders": [
-          "meetings"
+          "meetings/{{name}}"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
+    },
+    {
+      "id": "bbf6435a-8d26-44b7-b52b-4e5ee26c9af0",
+      "name": "Quick note",
+      "type": "Template",
+      "command": true,
+      "templatePath": "templates/quick_note.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{DATE:DD-MM-YYYY HH.mm}}"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "quick_notes"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
+    },
+    {
+      "id": "0e62834d-00ba-46bd-bf43-86a69cbd9e2a",
+      "name": "Daily note",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "daily_notes/{{DATE:DD-MM-YYYY}}",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": true,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "- {{DATE:HH:mm}} {{VALUE}}"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "a178674a-87f5-42bc-8e28-0a2259cac9ae",
+      "name": "Task",
+      "type": "Template",
+      "command": true,
+      "templatePath": "templates/task.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{name}}"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "tasks/{{name}}"
         ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,
