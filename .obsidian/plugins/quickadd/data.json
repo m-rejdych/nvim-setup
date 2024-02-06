@@ -5,7 +5,7 @@
       "name": "Meeting",
       "type": "Template",
       "command": true,
-      "templatePath": "templates/meeting.md",
+      "templatePath": "Templates/Meeting.md",
       "fileNameFormat": {
         "enabled": true,
         "format": "{{name}}"
@@ -13,7 +13,7 @@
       "folder": {
         "enabled": true,
         "folders": [
-          "meetings/{{name}}"
+          "Meetings/{{name}}"
         ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,
@@ -35,7 +35,7 @@
       "name": "Quick note",
       "type": "Template",
       "command": true,
-      "templatePath": "templates/quick_note.md",
+      "templatePath": "Templates/Quick note.md",
       "fileNameFormat": {
         "enabled": true,
         "format": "{{DATE:DD-MM-YYYY HH.mm}}"
@@ -43,7 +43,7 @@
       "folder": {
         "enabled": true,
         "folders": [
-          "quick_notes"
+          "Quick notes"
         ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,
@@ -66,12 +66,12 @@
       "type": "Capture",
       "command": true,
       "appendLink": false,
-      "captureTo": "daily_notes/{{DATE:DD-MM-YYYY}}",
+      "captureTo": "Daily notes/{{DATE:DD-MM-YYYY}}",
       "captureToActiveFile": false,
       "createFileIfItDoesntExist": {
         "enabled": true,
-        "createWithTemplate": false,
-        "template": ""
+        "createWithTemplate": true,
+        "template": "Templates/Daily note.md"
       },
       "format": {
         "enabled": true,
@@ -85,7 +85,7 @@
         "createIfNotFound": false,
         "createIfNotFoundLocation": "top"
       },
-      "prepend": false,
+      "prepend": true,
       "task": false,
       "openFileInNewTab": {
         "enabled": false,
@@ -100,7 +100,7 @@
       "name": "Task",
       "type": "Template",
       "command": true,
-      "templatePath": "templates/task.md",
+      "templatePath": "Templates/Task.md",
       "fileNameFormat": {
         "enabled": true,
         "format": "{{name}}"
@@ -108,7 +108,282 @@
       "folder": {
         "enabled": true,
         "folders": [
-          "tasks/{{name}}"
+          "Tasks/{{name}}"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
+    },
+    {
+      "id": "c989b450-ae33-4878-8e60-b80caaa050b6",
+      "name": "Article",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "Resources/Articles.md",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": true,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "- [{{VALUE:Article name}}]({{VALUE:Link}}) #not_read"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": true,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "21ab081e-31b4-40ba-b4a5-75627dbc3c36",
+      "name": "Tool",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "Programming/Tools.md",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": true,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "- [{{VALUE:Tool name}}]({{VALUE:Link}})"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": true,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "eec46d32-7a7d-4318-90b8-d8540e3b1fca",
+      "name": "Lib",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "Programming/Libs.md",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": true,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "- [{{VALUE:Lib name}}]({{VALUE:Link}})"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": true,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "5b467259-db49-46d6-a0cb-561e3a6a4398",
+      "name": "Resource",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "Programming/Resources.md",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": true,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "- [{{VALUE:Resource name}}]({{VALUE:Link}})"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": true,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "fa50801e-e2af-4867-a1a5-10864e2298e1",
+      "name": "Video",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "Resources/Videos.md",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": true,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "- [{{VALUE:Video name}}]({{VALUE:Link}}) #not_watched"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": true,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "92001418-2549-4fb9-81ad-d9e5ee8cb4ed",
+      "name": "Recipe",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "Cooking/Recipes.md",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": true,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "- [{{VALUE:Recipe name}}]({{VALUE:Link}})"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": true,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "b81e99d2-72b6-4151-803a-158d45942277",
+      "name": "Event",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "Entertainment/Events.md",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": true,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "- [{{VALUE:Event name}}]({{VALUE:Link}})"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": true,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "f09f5d20-f5de-4bf1-acaa-e88188c1bacf",
+      "name": "Project idea",
+      "type": "Template",
+      "command": true,
+      "templatePath": "Templates/Project idea.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{name}}"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "Projects/Ideas"
         ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,
@@ -129,7 +404,7 @@
   "macros": [],
   "inputPrompt": "single-line",
   "devMode": false,
-  "templateFolderPath": "",
+  "templateFolderPath": "Templates",
   "announceUpdates": true,
   "version": "1.6.1",
   "disableOnlineFeatures": true,

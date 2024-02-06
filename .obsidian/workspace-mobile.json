@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "35422f9435ff14be",
+        "id": "b2878e93af5b517c",
         "type": "tabs",
         "children": [
           {
-            "id": "7ed649a0441d0629",
+            "id": "7d55d61a574b08c8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Resources/Articles.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
+            "file": "Resources/Articles.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
+            "file": "Resources/Articles.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -107,7 +113,9 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {}
+          "state": {
+            "file": "Resources/Articles.md"
+          }
         }
       }
     ],
@@ -115,6 +123,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-importer:Open Importer": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -124,8 +133,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7ed649a0441d0629",
+  "active": "7d55d61a574b08c8",
   "lastOpenFiles": [
+    "Quick notes/Healthy breakfast.md",
+    "Shopping list.md",
+    "Daily notes/04-02-2024.md",
+    "Cooking/Shopping list.md",
+    "Excalidraw/Drawing 2024-02-03 15.45.38.excalidraw.md",
+    "Cooking/Recipes.md",
+    "Resources/Articles.md",
     "quick_notes/02-02-2024 21.38.md",
     "Excalidraw/Drawing 2024-02-02 20.57.28.excalidraw.md",
     "templates/task.md",

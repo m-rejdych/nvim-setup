@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "bc924e2d61b0923a",
+        "id": "ed82d2a5d4bf9cc2",
         "type": "tabs",
         "children": [
           {
-            "id": "87907be1dfcd51e6",
+            "id": "a93438025720482f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Quick notes/Healthy breakfast.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#read",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "bb0751bebbe900c4",
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Quick notes/Healthy breakfast.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Quick notes/Healthy breakfast.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,10 +125,13 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Quick notes/Healthy breakfast.md"
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -136,46 +146,47 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-importer:Open Importer": false
     }
   },
-  "active": "87907be1dfcd51e6",
+  "active": "a93438025720482f",
   "lastOpenFiles": [
-    "tasks/Make a supper/Make a supper.md",
-    "tasks/Make a supper",
-    "quick_notes/02-02-2024 21.38.md",
-    "templates/task.md",
-    "tasks/Some new task/Some new task.md",
-    "other.md",
-    "Excalidraw/Drawing 2024-02-02 21.35.05.excalidraw.md",
-    "some link.md",
-    "tasks/Some new task",
-    "quick_notes/02-02-2024 21.02.md",
-    "Excalidraw/Drawing 2024-02-02 21.04.00.excalidraw.md",
-    "Excalidraw/Drawing 2024-02-02 20.57.28.excalidraw.md",
-    "meetings/some meeting/some meeting.md",
-    "meetings/some meeting",
-    "tasks/cool task/cool task.md",
-    "Untitled.md",
-    "tasks/cool task",
-    "tasks",
-    "Some new task.md",
-    "templates/quick_note.md",
-    "templates/meeting.md",
-    "templates/meeting.md",
-    "Excalidraw/Template.excalidraw.md",
-    "Excalidraw",
-    "daily_notes/30-01-2024.md",
-    "quick_notes/30-01-2024 00.15.md",
-    "quick_notes/29-01-2024 23.55.md",
-    "quick_notes/30-01-2024 00.14.md",
-    "daily_notes",
-    "quick_notes/Quick note 29-01-2024 23.52.md",
-    "quick_notes/Quick note 29-01-2024 23.49.md",
-    "quick_notes",
-    "meetings/Fendi daily 29-01-2024 23.45.md",
-    "meetings/Fenix daily 29-01-2024 23.41.md",
-    "meetings",
-    "templates"
+    "Daily notes/04-02-2024.md",
+    "Cooking/Shopping list.md",
+    "Programming/Tools.md",
+    "Programming/Resources.md",
+    "Programming/Libs.md",
+    "Resources/Articles.md",
+    "Programming/Fun.md",
+    "Cooking/Recipes.md",
+    "Quick notes/Healthy breakfast.md",
+    "Excalidraw/Drawing 2024-02-03 15.45.38.excalidraw.md",
+    "Excalidraw/Drawing 2024-02-03 15.15.04.excalidraw.md",
+    "Notion/All.md",
+    "Notion/Resources.md",
+    "Notion/Tools.md",
+    "Entertainment/Activities.md",
+    "Notion/Libs.md",
+    "Notion/Recipes.md",
+    "Resources/Videos.md",
+    "Entertainment/Events.md",
+    "Private/Gift ideas/Natalia.md",
+    "Private/Gift ideas/Dad.md",
+    "Private/Gift ideas",
+    "Projects/Ideas/Code uploads app.md",
+    "Projects/Ideas/Multiplayer terminal game.md",
+    "Projects/Ideas/AI transcription tool .md",
+    "Projects/Ideas/CRON that automatically finds interesting articles and saves them to Obsidian.md",
+    "Projects/Ideas/Nutrition sharing app.md",
+    "Projects/Ideas/Administration / reservation ",
+    "Projects/Ideas/Administration ",
+    "Notion",
+    "Cooking/Ingredients",
+    "Recipes d0263af02d5241f1898ae01530036e52_all.csv",
+    "Projects",
+    "Entertainment",
+    "Cooking",
+    "Projects/Ideas"
   ]
 }
