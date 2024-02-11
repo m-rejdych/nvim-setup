@@ -69,7 +69,21 @@ local handlers =  {
 
 -- SERVERS SETUP
 
-local servers = { 'pyright', 'rust_analyzer', 'tsserver', 'jsonls', 'html', 'cssls', 'eslint', 'dartls', 'tailwindcss', 'prismals', 'marksman' }
+local servers = {
+  'pyright',
+  'rust_analyzer',
+  'tsserver',
+  'jsonls',
+  'html',
+  'cssls',
+  'eslint',
+  'dartls',
+  'tailwindcss',
+  'prismals',
+  'marksman',
+  'graphql',
+}
+
 for _, lsp in ipairs(servers) do
   nvim_lsp[lsp].setup {
     on_attach = on_attach,

@@ -26,5 +26,6 @@ require('nvim-treesitter.configs').setup {
     "prisma",
     "markdown",
     "markdown_inline",
+    "graphql",
   }
 }
