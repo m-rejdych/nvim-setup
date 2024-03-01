@@ -22,6 +22,8 @@ Plug 'nvim-lualine/lualine.nvim'
 Plug 'windwp/nvim-ts-autotag'
 Plug 'dart-lang/dart-vim-plugin'
 Plug 'rose-pine/neovim', { 'as': 'rose-pine' }
+Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
+Plug 'github/copilot.vim'
 
 call plug#end()
 
@@ -42,13 +44,12 @@ set fileencodings=utf-8,sjis,euc-jp,latin
 set encoding=utf-8
 set title
 set autoindent
-"set background=dark
 set nobackup
 set hlsearch
 set showcmd
 set cmdheight=1
-set laststatus=2
 set winbar=%f
+set laststatus=2
 set scrolloff=10
 set expandtab
 "let loaded_matchparen = 1
@@ -149,8 +150,8 @@ autocmd FileType yaml setlocal shiftwidth=2 tabstop=2
 "Runs python file
 autocmd FileType python map <buffer><leader>pp :w<CR>:exec '!python3' shellescape(@%, 1)<CR>
 
-nnoremap <silent>= <cmd>:vertical resize +5<CR>
-nnoremap <silent>- <cmd>:vertical resize -5<CR>
+nnoremap <silent>- <cmd>:vertical resize +5<CR>
+nnoremap <silent>= <cmd>:vertical resize -5<CR>
 nnoremap <silent>[ <cmd>:resize -5<CR>
 nnoremap <silent>] <cmd>:resize +5<CR>
 nnoremap <silent><leader>ve <cmd>:Vex!<CR>
@@ -158,8 +159,9 @@ nnoremap <silent><leader>ee :Exp<CR>
 nnoremap <silent><leader>he :Sex<CR>
 nnoremap <silent><leader>,, :G mergetool<CR>
 nnoremap <silent><leader>,s :Gvdiffsplit!<CR>
-nnoremap <silent><leader>r :diffget //2<CR>
-nnoremap <silent><leader>u :diffget //3<CR>
+nnoremap <silent><leader>,r :diffget //2<CR>
+nnoremap <silent><leader>,u :diffget //3<CR>
+nnoremap <silent><leader>rl :LspRestart<CR>
 nnoremap <silent><leader>cab <cmd>bufdo bw<CR>
 
 nnoremap n nzzzv
@@ -168,15 +170,13 @@ nnoremap <C-d> <C-d>zz
 nnoremap <C-u> <C-u>zz
 nnoremap J mzJ`z
 
+
 " Theme
 
 if exists("&termguicolors") && exists("&winblend")
   syntax enable
   set termguicolors
   set background=dark
-"  let g:gruvbox_transparent_bg = 1
-"  let g:gruvbox_invert_selection = 0
-"  colorscheme gruvbox
   highlight Normal     ctermbg=NONE guibg=NONE
   highlight LineNr     ctermbg=NONE guibg=NONE
   highlight SignColumn ctermbg=NONE guibg=NONE

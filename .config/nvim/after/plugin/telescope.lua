@@ -17,6 +17,7 @@ require('telescope').setup {
       "target",
       "plugged",
       "package-lock.json",
+      "migraions",
     },
   },
 }
