@@ -2,6 +2,6 @@
   "showLineNumber": true,
   "vimMode": true,
   "promptDelete": false,
-  "attachmentFolderPath": "/",
+  "attachmentFolderPath": "Files",
   "alwaysUpdateLinks": true
 }
