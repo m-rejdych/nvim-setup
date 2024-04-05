@@ -24,6 +24,7 @@ Plug 'dart-lang/dart-vim-plugin'
 Plug 'rose-pine/neovim', { 'as': 'rose-pine' }
 Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
 Plug 'github/copilot.vim'
+Plug 'christoomey/vim-tmux-navigator'
 
 call plug#end()
 
