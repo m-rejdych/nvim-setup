@@ -17,7 +17,7 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 rustup component add rust-src
 ```
 
-2. Install one of [nerd-fonts](https://www.nerdfonts.com/) and enable it in iTerm2
+2. Install one of [nerd-fonts](https://www.nerdfonts.com/) and enable it in iTerm2 - *Source Code Pro*
 
 3. Install vim-plug `sh -c 'curl -fLo $HOME/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'`
 
