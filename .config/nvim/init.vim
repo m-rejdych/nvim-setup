@@ -151,19 +151,24 @@ autocmd FileType yaml setlocal shiftwidth=2 tabstop=2
 "Runs python file
 autocmd FileType python map <buffer><leader>pp :w<CR>:exec '!python3' shellescape(@%, 1)<CR>
 
-nnoremap <silent>- <cmd>:vertical resize +5<CR>
-nnoremap <silent>= <cmd>:vertical resize -5<CR>
-nnoremap <silent>[ <cmd>:resize -5<CR>
-nnoremap <silent>] <cmd>:resize +5<CR>
-nnoremap <silent><leader>ve <cmd>:Vex!<CR>
+nnoremap <silent>+ :vertical resize +5<CR>
+nnoremap <silent>- :vertical resize -5<CR>
+nnoremap <silent>[ :resize -5<CR>
+nnoremap <silent>] :resize +5<CR>
+nnoremap <silent><leader>ve :Vex!<CR>
 nnoremap <silent><leader>ee :Exp<CR>
 nnoremap <silent><leader>he :Sex<CR>
-nnoremap <silent><leader>,, :G mergetool<CR>
+nnoremap <silent><leader>,m :G mergetool<CR>
 nnoremap <silent><leader>,s :Gvdiffsplit!<CR>
-nnoremap <silent><leader>,r :diffget //2<CR>
-nnoremap <silent><leader>,u :diffget //3<CR>
-nnoremap <silent><leader>rl :LspRestart<CR>
-nnoremap <silent><leader>cab <cmd>bufdo bw<CR>
+nnoremap <silent><leader>,h :diffget //2<CR>
+nnoremap <silent><leader>,l :diffget //3<CR>
+nnoremap <silent><leader>lr :LspRestart<CR>
+nnoremap <silent><leader>cab :bufdo bw<CR>
+
+augroup netrw_mapping
+  autocmd!
+  autocmd filetype netrw call NetrwMapping()
+augroup END
 
 nnoremap n nzzzv
 nnoremap N Nzzzv
