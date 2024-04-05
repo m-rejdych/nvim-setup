@@ -25,9 +25,10 @@ rustup component add rust-src
 
 5. Place _.tmux.conf_ in home folder
 
-6. Go to _.config/nvim_
+6. Install [tpm](https://github.com/tmux-plugins/tpm)
 
-7. `nvim plug.vim`
+7. Go to _.config/nvim_
 
-8. `:PlugInstall`
+8. `nvim plug.vim`
 
+9. `:PlugInstall`
