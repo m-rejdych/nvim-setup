@@ -3,7 +3,7 @@
   variant = 'main',
   dark_variant = 'main',
   styles = {
-    bold = false,
+    bold = true,
     transparency = true,
     italic = false,
   },
