@@ -1,4 +1,5 @@
-yabai -m config layout bsp
+# yabai -m config layout bsp
+yabai -m config layout stack
 
 yabai -m config window_placement second_child
 yabai -m config window_shadow float

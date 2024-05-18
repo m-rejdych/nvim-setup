@@ -1,3 +1,7 @@
+# change layout
+shift + alt - b: yabai -m config layout bsp
+shift + alt - n: yabai -m config layout stack
+
 # change window focus within space
 meh - j : yabai -m window --focus south
 meh - k : yabai -m window --focus north
@@ -9,8 +13,8 @@ meh - s : yabai -m display --focus west
 meh - g : yabai -m display --focus east
 
 # move window to display left and right
-shift + alt - s : yabai -m window --display west; yabai -m display --focus west;
-shift + alt - g : yabai -m window --display east; yabai -m display --focus east;
+shift + alt - s : yabai -m window --display west
+shift + alt - g : yabai -m window --display east
 
 # Focus previous space by mission-control index
 # alt + d : yabai -m space --focus prev
@@ -28,17 +32,17 @@ shift + alt - g : yabai -m window --display east; yabai -m display --focus east;
 # alt - 7 : yabai -m space --focus 7;
 
 #move window to prev and next space
-shift + alt - d : yabai -m window --space prev;
-shift + alt - f : yabai -m window --space next;
+shift + alt - d : yabai -m window --space prev
+shift + alt - f : yabai -m window --space next
 
 # move window to space #
-shift + alt - 1 : yabai -m window --space 1;
-shift + alt - 2 : yabai -m window --space 2;
-shift + alt - 3 : yabai -m window --space 3;
-shift + alt - 4 : yabai -m window --space 4;
-shift + alt - 5 : yabai -m window --space 5;
-shift + alt - 6 : yabai -m window --space 6;
-shift + alt - 7 : yabai -m window --space 7;
+shift + alt - 1 : yabai -m window --space 1
+shift + alt - 2 : yabai -m window --space 2
+shift + alt - 3 : yabai -m window --space 3
+shift + alt - 4 : yabai -m window --space 4
+shift + alt - 5 : yabai -m window --space 5
+shift + alt - 6 : yabai -m window --space 6
+shift + alt - 7 : yabai -m window --space 7
 
 # rotate layout clockwise
 shift + alt - r : yabai -m space --rotate 270
