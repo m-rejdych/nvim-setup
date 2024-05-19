@@ -3,8 +3,10 @@ shift + alt - b: yabai -m config layout bsp
 shift + alt - n: yabai -m config layout stack
 
 # change window focus within space
-meh - j : yabai -m window --focus south
-meh - k : yabai -m window --focus north
+# meh - j : yabai -m window --focus south
+# meh - k : yabai -m window --focus north
+meh - j : if [ "$(yabai -m query --spaces --space | jq -r '.type')" = "stack" ]; then (yabai -m window --focus stack.next || yabai -m window --focus stack.first); else yabai -m window --focus south; fi
+meh - k : if [ "$(yabai -m query --spaces --space | jq -r '.type')" = "stack" ]; then (yabai -m window --focus stack.prev || yabai -m window --focus stack.last); else yabai -m window --focus north; fi
 meh - h : yabai -m window --focus west
 meh - l : yabai -m window --focus east
 
