@@ -79,6 +79,7 @@ set smarttab
 filetype plugin indent on
 set shiftwidth=2
 set tabstop=2
+set mouse= "disable mouse
 set ai "Auto indent
 set si "Smart indent
 set nowrap "No Wrap lines
@@ -159,6 +160,7 @@ nnoremap <silent><leader>ve :Vex!<CR>
 nnoremap <silent><leader>ee :Exp<CR>
 nnoremap <silent><leader>he :Sex<CR>
 nnoremap <silent><leader>,m :G mergetool<CR>
+nnoremap <silent><leader>,b :G blame<CR>
 nnoremap <silent><leader>,s :Gvdiffsplit!<CR>
 nnoremap <silent><leader>,h :diffget //2<CR>
 nnoremap <silent><leader>,l :diffget //3<CR>

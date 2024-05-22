@@ -82,6 +82,7 @@ local servers = {
   'prismals',
   'marksman',
   'graphql',
+  "clangd",
 }
 
 for _, lsp in ipairs(servers) do
