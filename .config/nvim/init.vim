@@ -167,6 +167,37 @@ nnoremap <silent><leader>,l :diffget //3<CR>
 nnoremap <silent><leader>lr :LspRestart<CR>
 nnoremap <silent><leader>cab :bufdo bw<CR>
 
+" Quickfix lists
+function! ToggleQuickFix()
+  if empty(filter(getwininfo(), 'v:val.quickfix'))
+    copen
+  else
+    cclose
+  endif
+endfunction
+
+" When using `dd` in the quickfix list, remove the item from the quickfix list.
+function! RemoveQFItem()
+  let curqfidx = line('.') - 1
+  let qfall = getqflist()
+  call remove(qfall, curqfidx)
+  call setqflist(qfall, 'r')
+  execute curqfidx + 1 . "cfirst"
+  :copen
+endfunction
+
+:command! RemoveQFItem :call RemoveQFItem()
+" Use map <buffer> to only map dd in the quickfix window. Requires +localmap
+autocmd FileType qf map <buffer> dd :RemoveQFItem<cr>
+
+nnoremap <silent> <leader>qt :call ToggleQuickFix()<CR>
+nnoremap <silent> <leader>qn :cnext<CR>
+nnoremap <silent> <leader>qp :cprevious<CR>
+nnoremap <silent> <leader>qf :cfirst<CR>
+nnoremap <silent> <leader>ql :clast<CR>
+nnoremap <silent> <leader>qr <cmd>exe 'Cfilter! ' .. matchstr(getline('.'), '.\{-}\ze<bar>')<CR>
+"
+
 augroup netrw_mapping
   autocmd!
   autocmd filetype netrw call NetrwMapping()
