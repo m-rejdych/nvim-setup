@@ -32,7 +32,7 @@
       "modifiers": [
         "Mod"
       ],
-      "key": "L"
+      "key": "\\"
     }
   ],
   "editor:focus-right": [
@@ -110,6 +110,30 @@
         "Shift"
       ],
       "key": "E"
+    }
+  ],
+  "omnisearch:show-modal": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "/"
+    }
+  ],
+  "editor:toggle-comments": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "/"
+    }
+  ],
+  "omnisearch:show-modal-infile": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "."
     }
   ]
 }

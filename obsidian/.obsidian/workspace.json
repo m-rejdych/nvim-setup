@@ -4,17 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "317e4e9cc22687aa",
+        "id": "2956eed757e31c5c",
         "type": "tabs",
         "children": [
           {
-            "id": "0a33081cea817cfc",
+            "id": "d6f5470f54775ca3",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Files/Project - Cortex 2024-07-29 20.48.41.excalidraw.md"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -46,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "embedding",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -71,7 +69,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -91,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Files/Project - Cortex 2024-07-29 20.48.41.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +106,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Files/Project - Cortex 2024-07-29 20.48.41.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,9 +127,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Files/Project - Cortex 2024-07-29 20.48.41.excalidraw.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -151,21 +146,24 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-importer:Open Importer": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "0a33081cea817cfc",
+  "active": "d6f5470f54775ca3",
   "lastOpenFiles": [
+    "Courses/AI Devs 1/Lessons/13 — Decyzja jest Twoja.md",
+    "Courses/AI Devs 1/Lessons/17 — Zacznijmy od postaw.md",
+    "Courses/AI Devs 1/Lessons/02 — W ogóle wiesz o czym mówię?!.md",
+    "Files/Project - Cortex 2024-07-29 20.48.41.excalidraw.md",
     "Tags/places.md",
     "Zettelkasten/Source/Project - Cortex.md",
     "Tags/cortex.md",
-    "Files/Project - Cortex 2024-07-29 20.48.41.excalidraw.md",
     "Resources/Articles list.md",
     "Files/Drawing 2024-07-29 20.47.55.excalidraw.md",
     "Templates/Basic note.md",
     "Courses/AI Devs 1/Lessons/12 — Pracuj na moich danych.md",
     "Tags/projects.md",
-    "Courses/AI Devs 1/Lessons/17 — Zacznijmy od postaw.md",
     "Tags/travel.md",
     "Zettelkasten/Source/From Klingenstock to Fronalpstock.md",
     "Travel/Interesting places.md",
@@ -176,12 +174,10 @@
     "Courses/AI Devs 1/Lessons/16 — Jak możesz mi towarzyszyć?.md",
     "Courses/AI Devs 1/Lessons/15 — Chodź, nauczę Cię!.md",
     "Courses/AI Devs 1/Lessons/14 — Sprawdzisz się na produkcji?.md",
-    "Courses/AI Devs 1/Lessons/13 — Decyzja jest Twoja.md",
     "Zettelkasten/Source/Exploring semantic search.md",
     "Zettelkasten/Source/Exploring full text search.md",
     "Tags/databases.md",
     "Tags/algorithms.md",
-    "Zettelkasten/Source/Exploring the concept of indexing.md",
     "Courses/AI Devs 1/Lessons/20 — Nawet wtedy, gdy śpisz.md~",
     "Courses/AI Devs 1/Lessons/17 — Zacznijmy od postaw.md~",
     "Courses/AI Devs 1/Lessons/15 — Chodź, nauczę Cię!.md~",
