@@ -109,3 +109,11 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias vim="/opt/homebrew/bin/nvim"
+alias notes="cd /Users/mrejdych/Library/Mobile\ Documents/iCloud~md~obsidian/Documents/Personal"
+
+# bun completions
+[ -s "/Users/mrejdych/.bun/_bun" ] && source "/Users/mrejdych/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"

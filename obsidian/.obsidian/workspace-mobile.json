@@ -1,0 +1,182 @@
+{
+  "main": {
+    "id": "1c8fb1a73585dff3",
+    "type": "split",
+    "children": [
+      {
+        "id": "1980978afd605e5c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d9b1284f19736baf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cooking/Recipes list.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ca0ad130f2ee9cf5",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "3556f3fc942c4db7",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "1985fb011258ce43",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "10",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "f35a9a6faa0d5ac0",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "4ab1c2a3ee89e78a",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 1
+  },
+  "right": {
+    "id": "2b06f5a4a66fcbcd",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "6cb2ddec2eeb793c",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Cooking/Recipes list.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "2ccc6f15f53cfefd",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "Cooking/Recipes list.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "00d0cb6bc4b4bd56",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Cooking/Recipes list.md"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-importer:Open Importer": false
+    }
+  },
+  "active": "d9b1284f19736baf",
+  "lastOpenFiles": [
+    "Travel/Interesting places.md",
+    "Courses/AI Devs 1/Lessons/12 — Pracuj na moich danych.md",
+    "Courses/AI Devs 1/Lessons/11 — Przełączmy to na Autopilot.md",
+    "Courses/AI Devs 1/Lessons/10 — Make it work, make it right.md",
+    "Courses/AI Devs 1/Lessons/09 — Teraz działa, ale nie wiem dlaczego.md",
+    "Tags/ai-devs-1.md",
+    "Tags/courses.md",
+    "Tags/car.md",
+    "Templates/Tag.md",
+    "Courses/AI Devs 1/Lessons/04 — Czekają nas trudne rozmowy.md",
+    "Courses/AI Devs 1/Lessons/03 — Po prostu zrób to, co powiem.md",
+    "Courses/AI Devs 1/Lessons/01 — Pierwszy kontakt z GPT.md",
+    "Courses/AI Devs 1/Lessons/07 — Przejdźmy do kodu.md",
+    "Tags/articles.md",
+    "Quick notes/7 cudów świata gra 07-04-2024 22.32.md",
+    "Cooking/Recipes.md",
+    "Quick notes/Mechanic oil 04-05-2024 18.09.md",
+    "Private/Gift ideas/Natalia.md",
+    "Courses/AI Devs 1/Lessons/18 — Pokaż co potrafisz.md",
+    "Courses/AI Devs 1/Lessons/20 — Nawet wtedy, gdy śpisz.md",
+    "Courses/AI Devs 1/Lessons/15 — Chodź, nauczę Cię!.md",
+    "Courses/AI Devs 1/AI Devs 1.md",
+    "Courses/AI Devs 1/Lessons/16 — Jak możesz mi towarzyszyć?.md",
+    "Quick notes/16-06-2024 13.19.md",
+    "Files/16-06-2024 13.19 2024-06-16 13.19.54.excalidraw.md",
+    "Courses/CS50 Introduction to Computer Science/Week 1.md",
+    "Courses/AI Devs 1/Files/dc7tpvpfe80oobyjffyvnj1dm8nx.png",
+    "Courses/AI Devs 1/Files/monday-1681232747.jpeg",
+    "Courses/AI Devs 1/Files/ehbo1t9m3xcw7y6gowgru63sop4q.jpeg",
+    "Courses/AI Devs 1/Files/ce3uhxn08bw9iz7wc7699v76sqkh.jpeg",
+    "Courses/AI Devs 1/Files/e0vg8kb906rcdifo8prloeue1al6.jpeg",
+    "Courses/AI Devs 1/Files/raycast-ai-1681389812.jpeg",
+    "Courses/AI Devs 1/Files/v2kt1vrssosbacqjaxbixvpnkuqj.jpeg",
+    "Courses/AI Devs 1/Files/he9lle0dojmj3gduaht44foro9y3.png",
+    "Courses/AI Devs 1/Files/uxgyfqihcf4dp2xkhuy5bbig99ii.png",
+    "Courses/AI Devs 1/Files/she4x5pk984zst5p7fjvqfizayz4.jpeg",
+    "Excalidraw",
+    "tasks",
+    "daily_notes",
+    "quick_notes",
+    "meetings",
+    "templates"
+  ]
+}

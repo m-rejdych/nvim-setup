@@ -1,0 +1,10 @@
+{
+  "showLineNumber": true,
+  "vimMode": true,
+  "promptDelete": false,
+  "attachmentFolderPath": "Files",
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "folder",
+  "livePreview": true,
+  "newFileFolderPath": "Zettelkasten/Source"
+}

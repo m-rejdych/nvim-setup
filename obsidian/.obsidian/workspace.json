@@ -1,0 +1,206 @@
+{
+  "main": {
+    "id": "b0a27562c5840eaf",
+    "type": "split",
+    "children": [
+      {
+        "id": "317e4e9cc22687aa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0a33081cea817cfc",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Files/Project - Cortex 2024-07-29 20.48.41.excalidraw.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5a6498efdaaa7a3f",
+    "type": "split",
+    "children": [
+      {
+        "id": "e417ca3307967690",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d64c3d2b514c2a0d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byCreatedTime"
+              }
+            }
+          },
+          {
+            "id": "4c8ed1563903686c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "embedding",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "09c57854c4d540e3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "a6c31a9c72e38cb7",
+            "type": "leaf",
+            "state": {
+              "type": "tagfolder-view",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 303.5
+  },
+  "right": {
+    "id": "bb0751bebbe900c4",
+    "type": "split",
+    "children": [
+      {
+        "id": "bc36eaaacf2b4235",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c3a4b8246d6359e3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Files/Project - Cortex 2024-07-29 20.48.41.excalidraw.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "40942b2aee6c97ea",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Files/Project - Cortex 2024-07-29 20.48.41.excalidraw.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "73376d81aabdfdd3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "b6c9604c72cf295c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Files/Project - Cortex 2024-07-29 20.48.41.excalidraw.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-importer:Open Importer": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "0a33081cea817cfc",
+  "lastOpenFiles": [
+    "Tags/places.md",
+    "Zettelkasten/Source/Project - Cortex.md",
+    "Tags/cortex.md",
+    "Files/Project - Cortex 2024-07-29 20.48.41.excalidraw.md",
+    "Resources/Articles list.md",
+    "Files/Drawing 2024-07-29 20.47.55.excalidraw.md",
+    "Templates/Basic note.md",
+    "Courses/AI Devs 1/Lessons/12 — Pracuj na moich danych.md",
+    "Tags/projects.md",
+    "Courses/AI Devs 1/Lessons/17 — Zacznijmy od postaw.md",
+    "Tags/travel.md",
+    "Zettelkasten/Source/From Klingenstock to Fronalpstock.md",
+    "Travel/Interesting places.md",
+    "Zettelkasten/Source/Bukowe Berdo.md",
+    "Courses/AI Devs 1/Lessons/20 — Nawet wtedy, gdy śpisz.md",
+    "Courses/AI Devs 1/Lessons/19 — Czy możesz mi pomóc, tu i teraz?.md",
+    "Courses/AI Devs 1/Lessons/18 — Pokaż co potrafisz.md",
+    "Courses/AI Devs 1/Lessons/16 — Jak możesz mi towarzyszyć?.md",
+    "Courses/AI Devs 1/Lessons/15 — Chodź, nauczę Cię!.md",
+    "Courses/AI Devs 1/Lessons/14 — Sprawdzisz się na produkcji?.md",
+    "Courses/AI Devs 1/Lessons/13 — Decyzja jest Twoja.md",
+    "Zettelkasten/Source/Exploring semantic search.md",
+    "Zettelkasten/Source/Exploring full text search.md",
+    "Tags/databases.md",
+    "Tags/algorithms.md",
+    "Zettelkasten/Source/Exploring the concept of indexing.md",
+    "Courses/AI Devs 1/Lessons/20 — Nawet wtedy, gdy śpisz.md~",
+    "Courses/AI Devs 1/Lessons/17 — Zacznijmy od postaw.md~",
+    "Courses/AI Devs 1/Lessons/15 — Chodź, nauczę Cię!.md~",
+    "Tags/travel.md~",
+    "Courses/AI Devs 1/Lessons/19 — Czy możesz mi pomóc, tu i teraz?.md~",
+    "Courses/AI Devs 1/Lessons/14 — Sprawdzisz się na produkcji?.md~",
+    "Courses/AI Devs 1/Lessons/12 — Pracuj na moich danych.md~",
+    "Zettelkasten/Insight",
+    "Courses/AI Devs 1/Lessons/09 — Teraz działa, ale nie wiem dlaczego.md~",
+    "Zettelkasten/Source",
+    "Files/Pasted image 20240714132202.png",
+    "Files/Pasted image 20240612005413.png",
+    "Courses/AI Devs 1/Files/bkz8x0xe8eiwer5skiv6s2r08vtd.png",
+    "Courses/AI Devs 1/Files/w6qbrwigiezbwh5znr6z6pgz1uqy.png",
+    "Courses/AI Devs 1/Files/a49y481d49l5tlsvb4jvy20n0g7x.jpeg",
+    "Courses/AI Devs 1/Files/v2kt1vrssosbacqjaxbixvpnkuqj.jpeg",
+    "Courses/AI Devs 1/Files/c3w74vqqapog09g6bzg8sus25jxo.jpeg",
+    "Courses/AI Devs 1/Files/8np7fq6zboj6scofet8pjb3frtec.jpeg",
+    "Courses/AI Devs 1/Files/ehbo1t9m3xcw7y6gowgru63sop4q.jpeg",
+    "Courses/AI Devs 1/Files/nvbxo3irgdqtytaet59z19fq9778.png"
+  ]
+}
