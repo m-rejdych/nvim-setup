@@ -72,7 +72,7 @@ local handlers =  {
 local servers = {
   'pyright',
   'rust_analyzer',
-  'tsserver',
+  'ts_ls',
   'jsonls',
   'html',
   'cssls',
