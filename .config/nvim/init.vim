@@ -195,6 +195,7 @@ nnoremap <silent> <leader>qn :cnext<CR>
 nnoremap <silent> <leader>qp :cprevious<CR>
 nnoremap <silent> <leader>qf :cfirst<CR>
 nnoremap <silent> <leader>ql :clast<CR>
+nnoremap <silent> <leader>qc :call setqflist([])<CR>
 nnoremap <silent> <leader>qr <cmd>exe 'Cfilter! ' .. matchstr(getline('.'), '.\{-}\ze<bar>')<CR>
 "
 
