@@ -4,7 +4,7 @@ call plug#begin('~/.config/nvim/plugged')
 
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-rhubarb'
-Plug 'cohama/lexima.vim'
+"Plug 'cohama/lexima.vim'
 
 Plug 'neovim/nvim-lspconfig'
 Plug 'nvim-treesitter/nvim-treesitter', { 'do': ':TSUpdate'  }
@@ -22,9 +22,9 @@ Plug 'nvim-lualine/lualine.nvim'
 Plug 'windwp/nvim-ts-autotag'
 Plug 'dart-lang/dart-vim-plugin'
 Plug 'rose-pine/neovim', { 'as': 'rose-pine' }
-Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
-Plug 'github/copilot.vim'
 Plug 'christoomey/vim-tmux-navigator'
+"Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
+"Plug 'github/copilot.vim'
 
 call plug#end()
 
