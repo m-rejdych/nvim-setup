@@ -4,18 +4,56 @@
     "type": "split",
     "children": [
       {
-        "id": "2956eed757e31c5c",
+        "id": "0cf9e3313b96f465",
         "type": "tabs",
         "children": [
           {
-            "id": "d6f5470f54775ca3",
+            "id": "caa1bc49a3e5e9b8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Programming/Resources list.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Resources list"
+            }
+          },
+          {
+            "id": "50197fa4b391aa43",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten/Source/AI Devs 3.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "AI Devs 3"
+            }
+          },
+          {
+            "id": "3f5ead3a5753f6c6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programming/Tools list.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Tools list"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -35,7 +73,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "byCreatedTime"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -44,13 +84,15 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#not_read",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -58,7 +100,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           },
           {
@@ -66,11 +110,12 @@
             "type": "leaf",
             "state": {
               "type": "tagfolder-view",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -90,6 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Programming/Resources list.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,7 +143,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Resources list"
             }
           },
           {
@@ -106,9 +154,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Programming/Resources list.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Resources list"
             }
           },
           {
@@ -119,7 +170,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -127,7 +180,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Programming/Resources list.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Resources list"
             }
           }
         ],
@@ -135,7 +192,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -150,53 +208,52 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "d6f5470f54775ca3",
+  "active": "3f5ead3a5753f6c6",
   "lastOpenFiles": [
-    "Courses/AI Devs 1/Lessons/13 — Decyzja jest Twoja.md",
-    "Courses/AI Devs 1/Lessons/17 — Zacznijmy od postaw.md",
-    "Courses/AI Devs 1/Lessons/02 — W ogóle wiesz o czym mówię?!.md",
-    "Files/Project - Cortex 2024-07-29 20.48.41.excalidraw.md",
-    "Tags/places.md",
-    "Zettelkasten/Source/Project - Cortex.md",
-    "Tags/cortex.md",
+    "Zettelkasten/Source/AI Devs 3.md",
+    "Programming/Resources list.md",
+    "Excalidraw/Scripts/Downloaded/Uniform size.svg",
+    "Files/Excalidraw playground 2024-10-07 17.54.16.excalidraw.md",
     "Resources/Articles list.md",
-    "Files/Drawing 2024-07-29 20.47.55.excalidraw.md",
-    "Templates/Basic note.md",
-    "Courses/AI Devs 1/Lessons/12 — Pracuj na moich danych.md",
-    "Tags/projects.md",
-    "Tags/travel.md",
-    "Zettelkasten/Source/From Klingenstock to Fronalpstock.md",
-    "Travel/Interesting places.md",
-    "Zettelkasten/Source/Bukowe Berdo.md",
-    "Courses/AI Devs 1/Lessons/20 — Nawet wtedy, gdy śpisz.md",
-    "Courses/AI Devs 1/Lessons/19 — Czy możesz mi pomóc, tu i teraz?.md",
-    "Courses/AI Devs 1/Lessons/18 — Pokaż co potrafisz.md",
-    "Courses/AI Devs 1/Lessons/16 — Jak możesz mi towarzyszyć?.md",
-    "Courses/AI Devs 1/Lessons/15 — Chodź, nauczę Cię!.md",
-    "Courses/AI Devs 1/Lessons/14 — Sprawdzisz się na produkcji?.md",
-    "Zettelkasten/Source/Exploring semantic search.md",
-    "Zettelkasten/Source/Exploring full text search.md",
-    "Tags/databases.md",
-    "Tags/algorithms.md",
+    "Programming/Libs list.md",
+    "Programming/Tools list.md",
+    "Tags/lists.md",
+    "Resources/Videos list.md",
+    "Cooking/Recipes list.md",
+    "Entertainment/Activities list.md",
+    "Entertainment/Events list.md",
+    "Tags/libs.md",
+    "Tags/ai-devs-3.md",
+    "Tasks/ai-devs-3/ai-devs-3.md",
+    "Tasks/ai-devs-3",
+    "Zettelkasten/Source/Excalidraw playground.md",
+    "Excalidraw/Scripts/Downloaded/Elbow connectors.svg",
+    "Excalidraw/Scripts/Downloaded/Elbow connectors.md",
+    "Excalidraw/Scripts/Downloaded/Connect elements.svg",
+    "Excalidraw/Scripts/Downloaded/Connect elements.md",
+    "Excalidraw/Scripts/Downloaded/Convert selected text elements to sticky notes.svg",
+    "Excalidraw/Scripts/Downloaded/Convert selected text elements to sticky notes.md",
+    "Excalidraw/Scripts/Downloaded/Zoom to Fit Selected Elements.svg",
+    "Excalidraw/Scripts/Downloaded/Zoom to Fit Selected Elements.md",
+    "Excalidraw/Scripts/Downloaded/Uniform size.md",
+    "Excalidraw/Scripts/Downloaded/Expand rectangles vertically keep text centered.svg",
+    "Excalidraw/Scripts/Downloaded/Expand rectangles vertically keep text centered.md",
+    "Excalidraw/Scripts/Downloaded/Expand rectangles horizontally keep text centered.svg",
+    "Excalidraw/Scripts/Downloaded/Expand rectangles horizontally keep text centered.md",
+    "Excalidraw/Scripts/Downloaded/Split text by lines.svg",
+    "Excalidraw/Scripts/Downloaded/Split text by lines.md",
+    "Excalidraw/Scripts/Downloaded/Reverse arrows.svg",
+    "Excalidraw/Scripts/Downloaded/Reverse arrows.md",
+    "Excalidraw/Scripts/Downloaded/Change shape of selected elements.svg",
+    "Excalidraw/Scripts/Downloaded/Change shape of selected elements.md",
+    "Excalidraw/Scripts/Downloaded",
+    "Excalidraw/Scripts",
     "Courses/AI Devs 1/Lessons/20 — Nawet wtedy, gdy śpisz.md~",
     "Courses/AI Devs 1/Lessons/17 — Zacznijmy od postaw.md~",
     "Courses/AI Devs 1/Lessons/15 — Chodź, nauczę Cię!.md~",
     "Tags/travel.md~",
     "Courses/AI Devs 1/Lessons/19 — Czy możesz mi pomóc, tu i teraz?.md~",
     "Courses/AI Devs 1/Lessons/14 — Sprawdzisz się na produkcji?.md~",
-    "Courses/AI Devs 1/Lessons/12 — Pracuj na moich danych.md~",
-    "Zettelkasten/Insight",
-    "Courses/AI Devs 1/Lessons/09 — Teraz działa, ale nie wiem dlaczego.md~",
-    "Zettelkasten/Source",
-    "Files/Pasted image 20240714132202.png",
-    "Files/Pasted image 20240612005413.png",
-    "Courses/AI Devs 1/Files/bkz8x0xe8eiwer5skiv6s2r08vtd.png",
-    "Courses/AI Devs 1/Files/w6qbrwigiezbwh5znr6z6pgz1uqy.png",
-    "Courses/AI Devs 1/Files/a49y481d49l5tlsvb4jvy20n0g7x.jpeg",
-    "Courses/AI Devs 1/Files/v2kt1vrssosbacqjaxbixvpnkuqj.jpeg",
-    "Courses/AI Devs 1/Files/c3w74vqqapog09g6bzg8sus25jxo.jpeg",
-    "Courses/AI Devs 1/Files/8np7fq6zboj6scofet8pjb3frtec.jpeg",
-    "Courses/AI Devs 1/Files/ehbo1t9m3xcw7y6gowgru63sop4q.jpeg",
-    "Courses/AI Devs 1/Files/nvbxo3irgdqtytaet59z19fq9778.png"
+    "Courses/AI Devs 1/Lessons/12 — Pracuj na moich danych.md~"
   ]
 }

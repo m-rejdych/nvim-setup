@@ -4,23 +4,56 @@
     "type": "split",
     "children": [
       {
-        "id": "1980978afd605e5c",
+        "id": "5b39d2e37a3af804",
         "type": "tabs",
         "children": [
           {
-            "id": "d9b1284f19736baf",
+            "id": "0e2037052288eeb0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cooking/Recipes list.md",
+                "file": "Quick notes/7 cudów świata gra 07-04-2024 22.32.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "7 cudów świata gra 07-04-2024 22.32"
+            }
+          },
+          {
+            "id": "c049e580166a49e8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten/Source/Dev meetings ideas.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Dev meetings ideas"
+            }
+          },
+          {
+            "id": "7f4b5a0bea4f4b31",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Quick notes/7 cudów świata gra 07-04-2024 22.32.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "7 cudów świata gra 07-04-2024 22.32"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -36,7 +69,9 @@
           "type": "file-explorer",
           "state": {
             "sortOrder": "alphabetical"
-          }
+          },
+          "icon": "lucide-folder-closed",
+          "title": "Files"
         }
       },
       {
@@ -45,13 +80,15 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "10",
+            "query": "",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical"
-          }
+          },
+          "icon": "lucide-search",
+          "title": "Search"
         }
       },
       {
@@ -62,7 +99,9 @@
           "state": {
             "sortOrder": "frequency",
             "useHierarchy": true
-          }
+          },
+          "icon": "lucide-tags",
+          "title": "Tags"
         }
       },
       {
@@ -70,11 +109,13 @@
         "type": "leaf",
         "state": {
           "type": "bookmarks",
-          "state": {}
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "Bookmarks"
         }
       }
     ],
-    "currentTab": 1
+    "currentTab": 0
   },
   "right": {
     "id": "2b06f5a4a66fcbcd",
@@ -86,7 +127,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Cooking/Recipes list.md",
+            "file": "Projects/Ideas/Todo app with AI.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -94,7 +135,9 @@
             "searchQuery": "",
             "backlinkCollapsed": false,
             "unlinkedCollapsed": true
-          }
+          },
+          "icon": "links-coming-in",
+          "title": "Backlinks"
         }
       },
       {
@@ -103,10 +146,12 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Cooking/Recipes list.md",
+            "file": "Projects/Ideas/Todo app with AI.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
-          }
+          },
+          "icon": "links-going-out",
+          "title": "Outgoing links"
         }
       },
       {
@@ -115,8 +160,10 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Cooking/Recipes list.md"
-          }
+            "file": "Projects/Ideas/Todo app with AI.md"
+          },
+          "icon": "lucide-list",
+          "title": "Outline"
         }
       }
     ],
@@ -124,6 +171,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "omnisearch:Omnisearch": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -134,44 +182,46 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "d9b1284f19736baf",
+  "active": "7f4b5a0bea4f4b31",
   "lastOpenFiles": [
-    "Travel/Interesting places.md",
-    "Courses/AI Devs 1/Lessons/12 — Pracuj na moich danych.md",
-    "Courses/AI Devs 1/Lessons/11 — Przełączmy to na Autopilot.md",
-    "Courses/AI Devs 1/Lessons/10 — Make it work, make it right.md",
-    "Courses/AI Devs 1/Lessons/09 — Teraz działa, ale nie wiem dlaczego.md",
-    "Tags/ai-devs-1.md",
-    "Tags/courses.md",
-    "Tags/car.md",
-    "Templates/Tag.md",
-    "Courses/AI Devs 1/Lessons/04 — Czekają nas trudne rozmowy.md",
-    "Courses/AI Devs 1/Lessons/03 — Po prostu zrób to, co powiem.md",
-    "Courses/AI Devs 1/Lessons/01 — Pierwszy kontakt z GPT.md",
-    "Courses/AI Devs 1/Lessons/07 — Przejdźmy do kodu.md",
-    "Tags/articles.md",
+    "Projects/Ideas/Todo app with AI.md",
+    "Zettelkasten/Source/Dev meetings ideas.md",
+    "Tags/work.md",
     "Quick notes/7 cudów świata gra 07-04-2024 22.32.md",
-    "Cooking/Recipes.md",
-    "Quick notes/Mechanic oil 04-05-2024 18.09.md",
+    "Cooking/Recipes list.md",
     "Private/Gift ideas/Natalia.md",
-    "Courses/AI Devs 1/Lessons/18 — Pokaż co potrafisz.md",
-    "Courses/AI Devs 1/Lessons/20 — Nawet wtedy, gdy śpisz.md",
-    "Courses/AI Devs 1/Lessons/15 — Chodź, nauczę Cię!.md",
-    "Courses/AI Devs 1/AI Devs 1.md",
-    "Courses/AI Devs 1/Lessons/16 — Jak możesz mi towarzyszyć?.md",
-    "Quick notes/16-06-2024 13.19.md",
-    "Files/16-06-2024 13.19 2024-06-16 13.19.54.excalidraw.md",
-    "Courses/CS50 Introduction to Computer Science/Week 1.md",
-    "Courses/AI Devs 1/Files/dc7tpvpfe80oobyjffyvnj1dm8nx.png",
-    "Courses/AI Devs 1/Files/monday-1681232747.jpeg",
-    "Courses/AI Devs 1/Files/ehbo1t9m3xcw7y6gowgru63sop4q.jpeg",
-    "Courses/AI Devs 1/Files/ce3uhxn08bw9iz7wc7699v76sqkh.jpeg",
-    "Courses/AI Devs 1/Files/e0vg8kb906rcdifo8prloeue1al6.jpeg",
-    "Courses/AI Devs 1/Files/raycast-ai-1681389812.jpeg",
-    "Courses/AI Devs 1/Files/v2kt1vrssosbacqjaxbixvpnkuqj.jpeg",
-    "Courses/AI Devs 1/Files/he9lle0dojmj3gduaht44foro9y3.png",
-    "Courses/AI Devs 1/Files/uxgyfqihcf4dp2xkhuy5bbig99ii.png",
-    "Courses/AI Devs 1/Files/she4x5pk984zst5p7fjvqfizayz4.jpeg",
+    "Zettelkasten/Source/Time.md",
+    "Files/Excalidraw playground 2024-10-07 17.54.16.excalidraw.md",
+    "Zettelkasten/Source/Excalidraw playground.md",
+    "Zettelkasten/Source/The 49 Day Plan.md",
+    "Templates/Basic note - Zet.md",
+    "Excalidraw/Scripts/Downloaded/Auto Layout.md",
+    "Excalidraw/Scripts/Downloaded/Box Selected Elements.md",
+    "Excalidraw/Scripts/Downloaded/Change shape of selected elements.svg",
+    "Excalidraw/Scripts/Downloaded/Uniform size.md",
+    "Excalidraw/Scripts/Downloaded/Convert selected text elements to sticky notes.md",
+    "Excalidraw/Scripts/Downloaded/Box Each Selected Groups.svg",
+    "Excalidraw/Scripts/Downloaded/Zoom to Fit Selected Elements.svg",
+    "Excalidraw/Scripts/Downloaded/Box Each Selected Groups.md",
+    "Excalidraw/Scripts/Downloaded/Change shape of selected elements.md",
+    "Excalidraw/Scripts/Downloaded/Zoom to Fit Selected Elements.md",
+    "Excalidraw/Scripts/Downloaded/Expand rectangles horizontally keep text centered.svg",
+    "Excalidraw/Scripts/Downloaded/Reverse arrows.md",
+    "Excalidraw/Scripts/Downloaded/Expand rectangles vertically keep text centered.svg",
+    "Excalidraw/Scripts/Downloaded/Expand rectangles vertically keep text centered.md",
+    "Excalidraw/Scripts/Downloaded/Reverse arrows.svg",
+    "Excalidraw/Scripts/Downloaded/Expand rectangles horizontally keep text centered.md",
+    "Excalidraw/Scripts/Downloaded/Auto Layout.svg",
+    "Excalidraw/Scripts/Downloaded/Uniform size.svg",
+    "Excalidraw/Scripts/Downloaded/Box Selected Elements.svg",
+    "Excalidraw/Scripts/Downloaded/Convert selected text elements to sticky notes.svg",
+    "Excalidraw/Scripts/Downloaded/Split text by lines.md",
+    "Excalidraw/Scripts/Downloaded",
+    "Excalidraw/Scripts",
+    "Programming/Resources list.md",
+    "Zettelkasten/Source/Untitled.md",
+    "Zettelkasten/Source/tańczenie.md",
+    "Zettelkasten/Source/Zakynthos 2023.md",
     "Excalidraw",
     "tasks",
     "daily_notes",

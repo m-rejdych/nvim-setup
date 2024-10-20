@@ -91,6 +91,13 @@
         "Mod"
       ],
       "key": "K"
+    },
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "K"
     }
   ],
   "editor:toggle-checklist-status": [],
@@ -134,6 +141,119 @@
         "Mod"
       ],
       "key": "."
+    }
+  ],
+  "obsidian-excalidraw-plugin:excalidraw-autocreate-newtab": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "E"
+    }
+  ],
+  "obsidian-excalidraw-plugin:universal-add-file": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "I"
+    }
+  ],
+  "obsidian-excalidraw-plugin:Downloaded/Auto Layout": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "A"
+    }
+  ],
+  "obsidian-excalidraw-plugin:Downloaded/Box Selected Elements": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "B"
+    }
+  ],
+  "obsidian-excalidraw-plugin:Downloaded/Box Each Selected Groups": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "N"
+    }
+  ],
+  "obsidian-excalidraw-plugin:Downloaded/Change shape of selected elements": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "C"
+    }
+  ],
+  "obsidian-excalidraw-plugin:Downloaded/Convert selected text elements to sticky notes": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "W"
+    }
+  ],
+  "obsidian-excalidraw-plugin:Downloaded/Expand rectangles horizontally keep text centered": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "X"
+    }
+  ],
+  "obsidian-excalidraw-plugin:Downloaded/Expand rectangles vertically keep text centered": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "Y"
+    }
+  ],
+  "obsidian-excalidraw-plugin:Downloaded/Reverse arrows": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "R"
+    }
+  ],
+  "obsidian-excalidraw-plugin:Downloaded/Split text by lines": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "T"
+    }
+  ],
+  "obsidian-excalidraw-plugin:Downloaded/Zoom to Fit Selected Elements": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "Z"
+    }
+  ],
+  "obsidian-excalidraw-plugin:Downloaded/Connect elements": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "F"
+    }
+  ],
+  "obsidian-excalidraw-plugin:Downloaded/Elbow connectors": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "E"
     }
   ]
 }

@@ -140,7 +140,7 @@
       },
       "format": {
         "enabled": true,
-        "format": "- [{{VALUE:Article name}}]({{VALUE:Link}}) #not_read"
+        "format": "- [{{VALUE:Article name}}]({{VALUE:Link}}) #open"
       },
       "insertAfter": {
         "enabled": false,
@@ -280,7 +280,7 @@
       },
       "format": {
         "enabled": true,
-        "format": "- [{{VALUE:Video name}}]({{VALUE:Link}}) #not_watched"
+        "format": "- [{{VALUE:Video name}}]({{VALUE:Link}}) #open"
       },
       "insertAfter": {
         "enabled": false,
@@ -500,7 +500,7 @@
     },
     {
       "id": "66703b3a-d31a-4f0a-af76-951bf7871449",
-      "name": "New tag",
+      "name": "Add tag",
       "type": "Template",
       "command": true,
       "templatePath": "Templates/Tag.md",
@@ -527,6 +527,36 @@
       "openFileInMode": "default",
       "fileExistsMode": "Increment the file name",
       "setFileExistsBehavior": false
+    },
+    {
+      "id": "6df7cbf5-183b-4bd6-90b3-b4f7671e3f8b",
+      "name": "Zet",
+      "type": "Template",
+      "command": true,
+      "templatePath": "Templates/Basic note - Zet.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{name}}"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "Zettelkasten/Source"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": true
     }
   ],
   "macros": [],
@@ -534,7 +564,7 @@
   "devMode": false,
   "templateFolderPath": "Templates",
   "announceUpdates": true,
-  "version": "1.11.0",
+  "version": "1.11.1",
   "disableOnlineFeatures": true,
   "enableRibbonIcon": false,
   "ai": {
