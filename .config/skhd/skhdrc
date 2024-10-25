@@ -1,6 +1,6 @@
 # change layout
-shift + alt - b: yabai -m config layout bsp
-shift + alt - n: yabai -m config layout stack
+shift + alt - b: if [ "$(yabai -m query --spaces --space | jq -r '.type')" = "stack" ]; then yabai -m config layout bsp; else yabai -m config layout stack; fi
+# shift + alt - n: yabai -m config layout stack
 
 # change window focus within space
 # meh - j : yabai -m window --focus south
