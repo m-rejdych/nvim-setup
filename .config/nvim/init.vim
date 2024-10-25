@@ -23,6 +23,7 @@ Plug 'windwp/nvim-ts-autotag'
 Plug 'dart-lang/dart-vim-plugin'
 Plug 'rose-pine/neovim', { 'as': 'rose-pine' }
 Plug 'christoomey/vim-tmux-navigator'
+"Plug 'sainnhe/gruvbox-material'
 "Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
 "Plug 'github/copilot.vim'
 

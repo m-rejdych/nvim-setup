@@ -1,6 +1,7 @@
 -- vim.g.gruvbox_material_better_performance = 1
 -- vim.g.gruvbox_material_transparent_background = 1
 -- vim.g.gruvbox_material_diagnostic_virtual_text = 'colored'
+-- vim.g.gruvbox_material_enable_bold = 1
 -- vim.g.gruvbox_material_colors_override = {
 --    red = {'#FAA0A0', '167'},
 --    green = {'#C1E1C1', '142'},
