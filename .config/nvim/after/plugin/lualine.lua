@@ -1,6 +1,7 @@
 require('lualine').setup({
   options = {
     -- theme = 'rose-pine',
-    theme = 'gruvbox-material',
+    -- theme = 'gruvbox-material',
+    theme = 'kanagawa',
   },
 })
