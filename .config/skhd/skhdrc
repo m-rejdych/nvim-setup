@@ -1,22 +1,43 @@
 # change layout
-shift + alt - b: if [ "$(yabai -m query --spaces --space | jq -r '.type')" = "stack" ]; then yabai -m config layout bsp; else yabai -m config layout stack; fi
+### shift + alt - b: if [ "$(yabai -m query --spaces --space | jq -r '.type')" = "stack" ]; then yabai -m config layout bsp; else yabai -m config layout stack; fi
 # shift + alt - n: yabai -m config layout stack
+
+########## MAIN
+ctrl + alt - b: if [ "$(yabai -m query --spaces --space | jq -r '.type')" = "stack" ]; then yabai -m config layout bsp; else yabai -m config layout stack; fi
+
+ctrl + alt - j : if [ "$(yabai -m query --spaces --space | jq -r '.type')" = "bsp" ]; then shift + alt - s : yabai -m window --swap south; fi
+ctrl + alt - k : if [ "$(yabai -m query --spaces --space | jq -r '.type')" = "bsp" ]; then shift + alt - s : yabai -m window --swap north; fi
+ctrl + alt - h : if [ "$(yabai -m query --spaces --space | jq -r '.type')" = "stack" ]; then yabai -m window --display west; else yabai -m window --swap west; fi
+ctrl + alt - l : if [ "$(yabai -m query --spaces --space | jq -r '.type')" = "stack" ]; then yabai -m window --display east; else yabai -m window --swap east; fi
+
+ctrl + alt - f : if [ "$(yabai -m query --spaces --space | jq -r '.type')" = "stack" ]; then (yabai -m window --focus stack.next || yabai -m window --focus stack.first); else yabai -m window --focus south; fi
+ctrl + alt - d : if [ "$(yabai -m query --spaces --space | jq -r '.type')" = "stack" ]; then (yabai -m window --focus stack.prev || yabai -m window --focus stack.last); else yabai -m window --focus north; fi
+ctrl + alt - s : if [ "$(yabai -m query --spaces --space | jq -r '.type')" = "stack" ]; then yabai -m display --focus west; else yabai -m window --focus west; fi
+ctrl + alt - g : if [ "$(yabai -m query --spaces --space | jq -r '.type')" = "stack" ]; then yabai -m display --focus east; else yabai -m window --focus east; fi
+
+ctrl + alt - r : yabai -m space --rotate 270
+ctrl + alt - y : yabai -m space --mirror y-axis
+ctrl + alt - x : yabai -m space --mirror x-axis
+ctrl + alt - t : yabai -m window --toggle float --grid 4:4:1:1:2:2
+ctrl + alt - m : yabai -m window --toggle zoom-fullscreen
+ctrl + alt - e : yabai -m space --balance
+##########
 
 # change window focus within space
 # meh - j : yabai -m window --focus south
 # meh - k : yabai -m window --focus north
-meh - j : if [ "$(yabai -m query --spaces --space | jq -r '.type')" = "stack" ]; then (yabai -m window --focus stack.next || yabai -m window --focus stack.first); else yabai -m window --focus south; fi
-meh - k : if [ "$(yabai -m query --spaces --space | jq -r '.type')" = "stack" ]; then (yabai -m window --focus stack.prev || yabai -m window --focus stack.last); else yabai -m window --focus north; fi
-meh - h : yabai -m window --focus west
-meh - l : yabai -m window --focus east
+### meh - j : if [ "$(yabai -m query --spaces --space | jq -r '.type')" = "stack" ]; then (yabai -m window --focus stack.next || yabai -m window --focus stack.first); else yabai -m window --focus south; fi
+### meh - k : if [ "$(yabai -m query --spaces --space | jq -r '.type')" = "stack" ]; then (yabai -m window --focus stack.prev || yabai -m window --focus stack.last); else yabai -m window --focus north; fi
+### meh - h : yabai -m window --focus west
+### meh - l : yabai -m window --focus east
 
 #change focus between external displays (left and right)
-meh - s : yabai -m display --focus west
-meh - g : yabai -m display --focus east
+### meh - s : yabai -m display --focus west
+### meh - g : yabai -m display --focus east
 
 # move window to display left and right
-shift + alt - s : yabai -m window --display west
-shift + alt - g : yabai -m window --display east
+### shift + alt - s : yabai -m window --display west
+### shift + alt - g : yabai -m window --display east
 
 # Focus previous space by mission-control index
 # alt + d : yabai -m space --focus prev
@@ -34,47 +55,47 @@ shift + alt - g : yabai -m window --display east
 # alt - 7 : yabai -m space --focus 7;
 
 #move window to prev and next space
-shift + alt - d : yabai -m window --space prev
-shift + alt - f : yabai -m window --space next
+### shift + alt - d : yabai -m window --space prev
+### shift + alt - f : yabai -m window --space next
 
 # move window to space #
-shift + alt - 1 : yabai -m window --space 1
-shift + alt - 2 : yabai -m window --space 2
-shift + alt - 3 : yabai -m window --space 3
-shift + alt - 4 : yabai -m window --space 4
-shift + alt - 5 : yabai -m window --space 5
-shift + alt - 6 : yabai -m window --space 6
-shift + alt - 7 : yabai -m window --space 7
+### shift + alt - 1 : yabai -m window --space 1
+### shift + alt - 2 : yabai -m window --space 2
+### shift + alt - 3 : yabai -m window --space 3
+### shift + alt - 4 : yabai -m window --space 4
+### shift + alt - 5 : yabai -m window --space 5
+### shift + alt - 6 : yabai -m window --space 6
+### shift + alt - 7 : yabai -m window --space 7
 
 # rotate layout clockwise
-shift + alt - r : yabai -m space --rotate 270
+### shift + alt - r : yabai -m space --rotate 270
 
 # flip along y-axis
-shift + alt - y : yabai -m space --mirror y-axis
+### shift + alt - y : yabai -m space --mirror y-axis
 
 # flip along x-axis
-shift + alt - x : yabai -m space --mirror x-axis
+### shift + alt - x : yabai -m space --mirror x-axis
 
 # toggle window float
-shift + alt - t : yabai -m window --toggle float --grid 4:4:1:1:2:2
+### shift + alt - t : yabai -m window --toggle float --grid 4:4:1:1:2:2
 
 # maximize a window
-shift + alt - m : yabai -m window --toggle zoom-fullscreen
+### shift + alt - m : yabai -m window --toggle zoom-fullscreen
 
 # balance out tree of windows (resize to occupy same area)
-shift + alt - e : yabai -m space --balance
+### shift + alt - e : yabai -m space --balance
 
 # swap windows
-shift + alt - j : yabai -m window --swap south
-shift + alt - k : yabai -m window --swap north
-shift + alt - h : yabai -m window --swap west
-shift + alt - l : yabai -m window --swap east
+### shift + alt - j : yabai -m window --swap south
+### shift + alt - k : yabai -m window --swap north
+### shift + alt - h : yabai -m window --swap west
+### shift + alt - l : yabai -m window --swap east
 
 # move window and split
-ctrl + alt - j : yabai -m window --warp south
-ctrl + alt - k : yabai -m window --warp north
-ctrl + alt - h : yabai -m window --warp west
-ctrl + alt - l : yabai -m window --warp east
+### ctrl + alt - j : yabai -m window --warp south
+### ctrl + alt - k : yabai -m window --warp north
+### ctrl + alt - h : yabai -m window --warp west
+### ctrl + alt - l : yabai -m window --warp east
 
 # meh - j : yabai -m window --resize bottom:100
 # meh - k : yabai -m window --resize top:100
