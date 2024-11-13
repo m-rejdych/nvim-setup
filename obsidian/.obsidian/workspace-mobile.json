@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "83c84fe126f560d1",
+        "id": "0f7e317505e5ebbb",
         "type": "tabs",
         "children": [
           {
-            "id": "9cc80f5806d061ae",
+            "id": "e3189dc0ab0fe069",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -91,7 +91,6 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Projects/Ideas/Todo app with AI.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -142,12 +141,13 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "obsidian-importer:Open Importer": false
+      "obsidian-importer:Open Importer": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "9cc80f5806d061ae",
+  "active": "e3189dc0ab0fe069",
   "lastOpenFiles": [
+    "Courses/AI Devs 1/Lessons/12 — Pracuj na moich danych.md",
     "Quick notes/25-10-2024 00.46.txt",
     "Quick notes/299-10-2024 00.38.txt",
     "Quick notes/---.txt",
@@ -192,7 +192,6 @@
     "tasks",
     "daily_notes",
     "quick_notes",
-    "meetings",
-    "templates"
+    "meetings"
   ]
 }

@@ -4,41 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "dc11df8135ea8235",
+        "id": "eee691521fcda7a5",
         "type": "tabs",
         "children": [
           {
-            "id": "055eb4fbd64d7e4f",
+            "id": "3b3612f5e74e21a8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/AI Devs 1/Lessons/11 — Przełączmy to na Autopilot.md",
+                "file": "Templates/Basic note - Zet.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "11 — Przełączmy to na Autopilot"
-            }
-          },
-          {
-            "id": "d5ec3ce83afa739d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Templates/Quick note.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Quick note"
+              "title": "Basic note - Zet"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -104,7 +88,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 303.5
+    "width": 303.5,
+    "collapsed": true
   },
   "right": {
     "id": "bb0751bebbe900c4",
@@ -189,57 +174,57 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-importer:Open Importer": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "omnisearch:Omnisearch": false
+      "omnisearch:Omnisearch": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d5ec3ce83afa739d",
+  "active": "3b3612f5e74e21a8",
   "lastOpenFiles": [
+    "Quick notes/13-11-2024 23.48.md",
+    "Quick notes/13-11-2024 23.49.md",
+    "Templates/Basic note - Zet.md",
+    "Templates/Basic note.md",
+    "Programming/Libs list.md",
+    "Quick notes/13-11-2024 23.25.md",
+    "Quick notes/13-11-2024 23.23.md",
+    "Programming/Tools list.md",
+    "Projects/Ideas/Web crawler.md",
+    "Projects/Ideas/Web scraper.md",
+    "Courses/AI Devs 1/Lessons/11 — Przełączmy to na Autopilot.md",
+    "Tags/project-ideas.md",
+    "Quick notes/03-11-2024 19.47.md",
+    "Files/03-11-2024 19.47 2024-11-03 20.09.47.excalidraw.md",
+    "Files/Invert Colors Image.jpg",
+    "Files/Screenshot 2024-11-03 at 20.06.38.png",
+    "Files/03-11-2024 19.47 2024-11-03 19.49.46.excalidraw.md",
+    "Files/IMG_6565.jpeg",
+    "Files/03-11-2024 19.47 2024-11-03 19.47.39.excalidraw.md",
+    "Zettelkasten/Source/Untitled.md",
+    "Files/BC43E8F3-0BBF-4E13-A4AA-DB834704DD7D_1_201_a.heic",
+    "Courses/AI Devs 1/Lessons/01 — Pierwszy kontakt z GPT.md",
+    "Templates/Quick note.md",
+    "Excalidraw/Scripts/Downloaded/Convert selected text elements to sticky notes.md",
+    "Courses/AI Devs 1/Lessons/16 — Jak możesz mi towarzyszyć?.md",
     "Quick notes/299-10-2024 00.38.txt",
     "Quick notes/---.txt",
-    "Courses/AI Devs 1/Lessons/11 — Przełączmy to na Autopilot.md",
     "Quick notes/7 cudów świata gra 07-04-2024 22.32.md",
     "Zettelkasten/Source/Pasted image 20241024234448.jpg.md",
     "Files/Pasted image 20241024234448.jpg",
     "Courses/AI Devs 1/Lessons/06 — Czego mnie dziś nauczysz?.md",
     "Zettelkasten/Source/quick note.md",
-    "Templates/Quick note.md",
-    "Programming/Tools list.md",
     "Zettelkasten/Source/AI Devs 3.md",
-    "Resources/Books list.md",
-    "Tags/books.md",
-    "Resources/Articles list.md",
-    "Tags/articles.md",
-    "Programming/Resources list.md",
     "Excalidraw/Scripts/Downloaded/Uniform size.svg",
-    "Files/Excalidraw playground 2024-10-07 17.54.16.excalidraw.md",
-    "Programming/Libs list.md",
-    "Tags/lists.md",
-    "Resources/Videos list.md",
-    "Cooking/Recipes list.md",
-    "Entertainment/Activities list.md",
-    "Entertainment/Events list.md",
-    "Tags/libs.md",
-    "Tags/ai-devs-3.md",
-    "Tasks/ai-devs-3/ai-devs-3.md",
     "Tasks/ai-devs-3",
-    "Zettelkasten/Source/Excalidraw playground.md",
     "Excalidraw/Scripts/Downloaded/Elbow connectors.svg",
-    "Excalidraw/Scripts/Downloaded/Elbow connectors.md",
     "Excalidraw/Scripts/Downloaded/Connect elements.svg",
     "Excalidraw/Scripts/Downloaded/Convert selected text elements to sticky notes.svg",
     "Excalidraw/Scripts/Downloaded/Zoom to Fit Selected Elements.svg",
     "Excalidraw/Scripts/Downloaded/Expand rectangles vertically keep text centered.svg",
-    "Excalidraw/Scripts/Downloaded/Expand rectangles horizontally keep text centered.svg",
-    "Excalidraw/Scripts/Downloaded/Split text by lines.svg",
-    "Excalidraw/Scripts/Downloaded/Reverse arrows.svg",
     "Excalidraw/Scripts/Downloaded",
     "Excalidraw/Scripts",
     "Courses/AI Devs 1/Lessons/20 — Nawet wtedy, gdy śpisz.md~",
     "Courses/AI Devs 1/Lessons/17 — Zacznijmy od postaw.md~",
     "Courses/AI Devs 1/Lessons/15 — Chodź, nauczę Cię!.md~",
-    "Tags/travel.md~",
-    "Courses/AI Devs 1/Lessons/19 — Czy możesz mi pomóc, tu i teraz?.md~",
-    "Courses/AI Devs 1/Lessons/14 — Sprawdzisz się na produkcji?.md~"
+    "Tags/travel.md~"
   ]
 }

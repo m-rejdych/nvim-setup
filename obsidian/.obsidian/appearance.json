@@ -2,8 +2,8 @@
   "accentColor": "",
   "cssTheme": "Minimal",
   "theme": "obsidian",
-  "interfaceFontFamily": "Source Code Pro",
-  "textFontFamily": "Source Code Pro",
-  "monospaceFontFamily": "Source Code Pro",
+  "interfaceFontFamily": "",
+  "textFontFamily": "",
+  "monospaceFontFamily": "",
   "translucency": false
 }

@@ -2,11 +2,10 @@
   "app:toggle-left-sidebar": [
     {
       "modifiers": [
-        "Alt",
-        "Ctrl",
+        "Mod",
         "Shift"
       ],
-      "key": "W"
+      "key": "S"
     }
   ],
   "app:toggle-right-sidebar": [
@@ -254,6 +253,14 @@
         "Ctrl"
       ],
       "key": "E"
+    }
+  ],
+  "quickadd:choice:bbf6435a-8d26-44b7-b52b-4e5ee26c9af0": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Q"
     }
   ]
 }
