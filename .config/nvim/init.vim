@@ -23,6 +23,7 @@ Plug 'windwp/nvim-ts-autotag'
 Plug 'dart-lang/dart-vim-plugin'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'rebelot/kanagawa.nvim'
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && npx --yes yarn install' }
 "Plug 'rose-pine/neovim', { 'as': 'rose-pine' }
 "Plug 'sainnhe/gruvbox-material'
 "Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
