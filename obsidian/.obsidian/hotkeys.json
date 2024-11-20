@@ -2,8 +2,8 @@
   "app:toggle-left-sidebar": [
     {
       "modifiers": [
-        "Mod",
-        "Shift"
+        "Alt",
+        "Mod"
       ],
       "key": "S"
     }
@@ -258,9 +258,27 @@
   "quickadd:choice:bbf6435a-8d26-44b7-b52b-4e5ee26c9af0": [
     {
       "modifiers": [
-        "Ctrl"
+        "Alt",
+        "Mod"
       ],
       "key": "Q"
+    }
+  ],
+  "quickadd:choice:6df7cbf5-183b-4bd6-90b3-b4f7671e3f8b": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "Z"
+    }
+  ],
+  "bookmarks:bookmark-current-view": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "P"
     }
   ]
 }

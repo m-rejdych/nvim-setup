@@ -4,17 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "15b60b2eb0da7d28",
+        "id": "b6ec2cd882059acc",
         "type": "tabs",
         "children": [
           {
-            "id": "478dd36648fad116",
+            "id": "1f9c839ebc5da764",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Quick notes/21-11-2024 00.03.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "21-11-2024 00.03"
             }
           }
         ]
@@ -100,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/Resources list.md",
+                "file": "Quick notes/21-11-2024 00.03.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +115,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Resources list"
+              "title": "Backlinks for 21-11-2024 00.03"
             }
           },
           {
@@ -119,12 +124,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/Resources list.md",
+                "file": "Quick notes/21-11-2024 00.03.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Resources list"
+              "title": "Outgoing links from 21-11-2024 00.03"
             }
           },
           {
@@ -146,14 +151,14 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/Resources list.md"
+                "file": "Quick notes/21-11-2024 00.03.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Resources list"
+              "title": "Outline of 21-11-2024 00.03"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -173,8 +178,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "478dd36648fad116",
+  "active": "1f9c839ebc5da764",
   "lastOpenFiles": [
+    "Quick notes/21-11-2024 00.03.md",
+    "Quick notes/21-11-2024 00.00.md",
+    "Zettelkasten/Source/This is a test.md",
+    "Quick notes/20-11-2024 23.58.md",
+    "Quick notes/20-11-2024 23.56.md",
+    "Resources/Articles list.md",
     "Quick notes/14-11-2024 01.57.md",
     "Projects/Ideas/AI Voice Assistant.md",
     "Templates/Basic note - Zet.md",
@@ -199,15 +210,9 @@
     "Zettelkasten/Source/Untitled.md",
     "Files/BC43E8F3-0BBF-4E13-A4AA-DB834704DD7D_1_201_a.heic",
     "Courses/AI Devs 1/Lessons/01 — Pierwszy kontakt z GPT.md",
-    "Templates/Quick note.md",
-    "Excalidraw/Scripts/Downloaded/Convert selected text elements to sticky notes.md",
-    "Courses/AI Devs 1/Lessons/16 — Jak możesz mi towarzyszyć?.md",
     "Quick notes/299-10-2024 00.38.txt",
     "Quick notes/---.txt",
-    "Quick notes/7 cudów świata gra 07-04-2024 22.32.md",
-    "Zettelkasten/Source/Pasted image 20241024234448.jpg.md",
     "Files/Pasted image 20241024234448.jpg",
-    "Courses/AI Devs 1/Lessons/06 — Czego mnie dziś nauczysz?.md",
     "Excalidraw/Scripts/Downloaded/Uniform size.svg",
     "Tasks/ai-devs-3",
     "Excalidraw/Scripts/Downloaded/Elbow connectors.svg",
