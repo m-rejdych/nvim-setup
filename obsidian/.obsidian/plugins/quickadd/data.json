@@ -8,7 +8,7 @@
       "templatePath": "Templates/Meeting.md",
       "fileNameFormat": {
         "enabled": true,
-        "format": "{{name}} {{DATE:DD-MM-YYYY}}"
+        "format": "Meeting - {{name}} {{DATE:DD-MM-YYYY}}"
       },
       "folder": {
         "enabled": true,
@@ -38,7 +38,7 @@
       "templatePath": "Templates/Quick note.md",
       "fileNameFormat": {
         "enabled": true,
-        "format": "{{DATE:DD-MM-YYYY HH.mm}}"
+        "format": "Quick note - {{DATE:DD-MM-YYYY HH.mm}}"
       },
       "folder": {
         "enabled": true,

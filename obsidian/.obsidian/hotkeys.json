@@ -271,5 +271,14 @@
       ],
       "key": "P"
     }
+  ],
+  "snippet-commands-obsidian:snippet-command-Zen mode": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Mod"
+      ],
+      "key": "Z"
+    }
   ]
 }
