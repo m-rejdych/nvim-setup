@@ -1,6 +1,6 @@
 ---
 Date: "{{date}}{{time}}"
-tags:
-  - quick_note
-aliases:
 ---
+> tags: [[quick-notes]]
+> status:
+

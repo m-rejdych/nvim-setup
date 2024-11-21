@@ -1,5 +1,5 @@
 ---
 Date: "{{date}}"
-tags:
-  - daily_note
 ---
+> tags: [[daily-notes]]
+

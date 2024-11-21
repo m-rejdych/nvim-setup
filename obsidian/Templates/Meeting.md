@@ -1,7 +1,6 @@
 ---
-Name: "{{name}}"
+Name: "{{title}}"
 Date: "{{date}}{{time}}"
-tags:
-  - meeting
-aliases:
 ---
+> tags: [[meetings]]
+

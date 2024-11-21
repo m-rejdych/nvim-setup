@@ -1,9 +1,7 @@
 ---
-Name: "{{name}}"
+Name: "{{title}}"
 Date: "{{date}}"
-tags:
-  - project_idea
-  - projects
-  - todo
 ---
+> tags: [[project-ideas]] [[projects]]
+
 ### What is it?

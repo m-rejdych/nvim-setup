@@ -1,9 +1,6 @@
 ---
-Name: "{{name}}"
+Name: "{{title}}"
 Date: "{{date}}"
-tags:
-  - task
-aliases:
 ---
 ### Requirements
 - [ ] 

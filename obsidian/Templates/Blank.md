@@ -1,5 +1,6 @@
 ---
+Name: "{{title}}"
 Date: "{{date}}{{time}}"
-tags: []
-aliases:
 ---
+> tags:
+

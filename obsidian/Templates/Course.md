@@ -1,10 +1,9 @@
 ---
-Name: "{{name}}"
+Name: "{{title}}"
 Date: "{{date}}"
-tags:
-  - course
-aliases:
 ---
+> tags: [[courses]]
+
 ### Description
 ...
 
