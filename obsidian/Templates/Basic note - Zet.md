@@ -20,7 +20,6 @@ Date: "{{date}}{{time}}"
 
 
 ---
-
 ### Open Questions
 
 
@@ -34,13 +33,11 @@ Date: "{{date}}{{time}}"
 
 
 ---
-
 ### Jotting
 
 
 
 ---
-
 ### References
 
 
