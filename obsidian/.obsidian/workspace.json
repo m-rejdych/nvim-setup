@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "b6ec2cd882059acc",
+        "id": "1bd48abd0d6d58f5",
         "type": "tabs",
         "children": [
           {
-            "id": "1f9c839ebc5da764",
+            "id": "81325bd73c0ca16a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Quick notes/21-11-2024 00.03.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "21-11-2024 00.03"
+              "title": "New tab"
             }
           }
         ]
@@ -88,8 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 303.5,
-    "collapsed": true
+    "width": 303.5
   },
   "right": {
     "id": "bb0751bebbe900c4",
@@ -105,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Quick notes/21-11-2024 00.03.md",
+                "file": "Quick notes/21-11-2024 00.47.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +109,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 21-11-2024 00.03"
+              "title": "Backlinks for 21-11-2024 00.47"
             }
           },
           {
@@ -124,12 +118,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Quick notes/21-11-2024 00.03.md",
+                "file": "Quick notes/21-11-2024 00.47.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 21-11-2024 00.03"
+              "title": "Outgoing links from 21-11-2024 00.47"
             }
           },
           {
@@ -151,10 +145,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Quick notes/21-11-2024 00.03.md"
+                "file": "Quick notes/21-11-2024 00.47.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 21-11-2024 00.03"
+              "title": "Outline of 21-11-2024 00.47"
             }
           }
         ],
@@ -178,38 +172,40 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1f9c839ebc5da764",
+  "active": "81325bd73c0ca16a",
   "lastOpenFiles": [
-    "Quick notes/21-11-2024 00.03.md",
-    "Quick notes/21-11-2024 00.00.md",
-    "Zettelkasten/Source/This is a test.md",
-    "Quick notes/20-11-2024 23.58.md",
-    "Quick notes/20-11-2024 23.56.md",
-    "Resources/Articles list.md",
-    "Quick notes/14-11-2024 01.57.md",
-    "Projects/Ideas/AI Voice Assistant.md",
-    "Templates/Basic note - Zet.md",
-    "Quick notes/13-11-2024 23.48.md",
-    "Quick notes/13-11-2024 23.49.md",
-    "Templates/Basic note.md",
-    "Programming/Libs list.md",
-    "Quick notes/13-11-2024 23.25.md",
-    "Quick notes/13-11-2024 23.23.md",
-    "Programming/Tools list.md",
-    "Projects/Ideas/Web crawler.md",
-    "Projects/Ideas/Web scraper.md",
-    "Courses/AI Devs 1/Lessons/11 — Przełączmy to na Autopilot.md",
-    "Tags/project-ideas.md",
+    "Quick notes/21-11-2024 02.45.md",
+    "Quick notes/21-11-2024 02.48.md",
+    "Quick notes/21-11-2024 02.42.md",
+    "Quick notes/21-11-2024 02.44.md",
+    "Quick notes/21-11-2024 02.33.md",
+    "Quick notes/21-11-2024 02.34.md",
+    "Quick notes/21-11-2024 02.29.md",
+    "Quick notes/21-11-2024 02.28.md",
+    "Quick notes/21-11-2024 02.25.md",
+    "Quick notes/21-11-2024 02.19.md",
+    "Quick notes/21-11-2024 02.16.md",
     "Quick notes/03-11-2024 19.47.md",
-    "Files/03-11-2024 19.47 2024-11-03 20.09.47.excalidraw.md",
+    "Quick notes/21-11-2024 02.15.md",
+    "Quick notes/21-11-2024 01.04.md",
+    "Quick notes/21-11-2024 02.14.md",
+    "Quick notes/21-11-2024 02.11.md",
+    "Quick notes/21-11-2024 02.10.md",
+    "Quick notes/21-11-2024 02.09.md",
+    "Quick notes/21-11-2024 02.08.md",
+    "Quick notes/21-11-2024 02.06.md",
+    "Quick notes/21-11-2024 02.05.md",
+    "Quick notes/21-11-2024 02.04.md",
+    "Quick notes/21-11-2024 01.31.md",
+    "Quick notes/21-11-2024 02.03.md",
+    "Templates/Quick note.md",
+    "Quick notes/21-11-2024 00.47.md",
+    "snippets/hide-app-ribbon.css",
+    "snippets",
     "Files/Invert Colors Image.jpg",
     "Files/Screenshot 2024-11-03 at 20.06.38.png",
-    "Files/03-11-2024 19.47 2024-11-03 19.49.46.excalidraw.md",
     "Files/IMG_6565.jpeg",
-    "Files/03-11-2024 19.47 2024-11-03 19.47.39.excalidraw.md",
-    "Zettelkasten/Source/Untitled.md",
     "Files/BC43E8F3-0BBF-4E13-A4AA-DB834704DD7D_1_201_a.heic",
-    "Courses/AI Devs 1/Lessons/01 — Pierwszy kontakt z GPT.md",
     "Quick notes/299-10-2024 00.38.txt",
     "Quick notes/---.txt",
     "Files/Pasted image 20241024234448.jpg",
@@ -223,8 +219,6 @@
     "Excalidraw/Scripts/Downloaded",
     "Excalidraw/Scripts",
     "Courses/AI Devs 1/Lessons/20 — Nawet wtedy, gdy śpisz.md~",
-    "Courses/AI Devs 1/Lessons/17 — Zacznijmy od postaw.md~",
-    "Courses/AI Devs 1/Lessons/15 — Chodź, nauczę Cię!.md~",
-    "Tags/travel.md~"
+    "Courses/AI Devs 1/Lessons/17 — Zacznijmy od postaw.md~"
   ]
 }

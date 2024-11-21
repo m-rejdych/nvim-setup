@@ -5,5 +5,8 @@
   "interfaceFontFamily": "",
   "textFontFamily": "",
   "monospaceFontFamily": "",
-  "translucency": false
+  "translucency": false,
+  "enabledCssSnippets": [
+    "hide-app-ribbon"
+  ]
 }
