@@ -3,7 +3,7 @@ Name: Meeting - {{name}} {{DATE:DD-MM-YYYY}}
 Date: "{{date}}{{time}}"
 ---
 > tags: [[meetings]]
-> status: 
+> status: #meeting
 
 # Meeting - {{name}} {{DATE:DD-MM-YYYY}}
 
