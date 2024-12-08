@@ -4,17 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "56cda5c63cf5f723",
+        "id": "f0d32fd8a17d94e6",
         "type": "tabs",
         "children": [
           {
-            "id": "8cb0399951adf437",
+            "id": "54ddc01bb6dd236e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Quick notes/Quick note - 08-12-2024 14.46.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Quick note - 08-12-2024 14.46"
             }
           }
         ]
@@ -173,34 +178,36 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "8cb0399951adf437",
+  "active": "54ddc01bb6dd236e",
   "lastOpenFiles": [
+    "Quick notes/Quick note - 08-12-2024 14.46.md",
+    "Quick notes/Testing things lol - 08-12-2024 14.35.md",
+    "Quick notes/This is test - 08-12-2024 14.35.md",
+    "Quick notes/Quick note - 30-11-2024 17.54.md",
+    "Quick notes/This is test note - 08-12-2024 14.34.md",
+    "Quick notes/This is test thing - 08-12-2024 14.32.md",
+    "Quick notes/Quick note - 08-12-2024 14.28.md",
+    "Zettelkasten/Source/Your older self is counting on you, your younger self is believing in you.md",
+    "Quick notes/Quick note - 28-11-2024 22.39.md",
+    "Tags/quotes.md",
+    "Quick notes/Quick note - 28-11-2024 22.37.md",
+    "Tags/podcasts.md",
+    "Quick notes/Quick note - 28-11-2024 22.24.md",
     "Templates/Basic note - Zet.md",
-    "Templates/Meeting.md",
-    "Quick notes/Quick note - 21-11-2024 23.24.md",
-    "Meetings/Meeting - Thi is foo 21-11-2024.md",
-    "Quick notes/Quick note - 21-11-2024 22.04.md",
-    "Templates/Quick note.md",
-    "Quick notes/Quick note - 21-11-2024 21.43.md",
-    "Quick notes/Quick note - 21-11-2024 21.41.md",
-    "Quick notes/Quick note - 21-11-2024 21.15.md",
-    "Quick notes/Quick note - 21-11-2024 21.02.md",
-    "Meetings/Meeting - warning 21-11-2024.md",
-    "Meetings/Meeting - awr 21-11-2024.md",
-    "Meetings/Meeting - kokko 21-11-2024.md",
-    "Quick notes/Quick note - 21-11-2024 20.41.md",
-    "Meetings/Meeting - testing 21-11-2024.md",
-    "Quick notes/Quick note - 21-11-2024 20.28.md",
-    "Quick notes/Quick note - 21-11-2024 20.16.md",
-    "Meetings/Meeting - some meet 21-11-2024.md",
-    "Meetings/Meeting - foosish 21-11-2024.md",
-    "Meetings/Meeting - some value 21-11-2024.md",
-    "Meetings/Meeting - Test 21-11-2024.md",
-    "Meetings/Meeting - testng 21-11-2024.md",
-    "Quick notes/Meeting  21-11-2024.md",
-    "Quick notes/Quick note - 21-11-2024 19.32.md",
-    "Quick notes/Quick note - 21-11-2024 18.30.md",
-    "Quick notes/Quick note - 21-11-2024 18.36.md",
+    "Quick notes/Quick note - 24-11-2024 15.21.md",
+    "Quick notes/Quick note - 24-11-2024 14.53.md",
+    "Quick notes/Quick note - 24-11-2024 14.52.md",
+    "Quick notes/Quick note - 24-11-2024 14.51.md",
+    "Quick notes/Quick note - 24-11-2024 14.50.md",
+    "Quick notes/Quick note - 24-11-2024 14.49.md",
+    "Quick notes/Quick note - 24-11-2024 14.46.md",
+    "Quick notes/Quick note - 24-11-2024 14.45.md",
+    "Quick notes/Quick note - 24-11-2024 14.43.md",
+    "Quick notes/Quick note - 23-11-2024 23.27.md",
+    "Quick notes/Quick note - 23-11-2024 23.02.md",
+    "Tags/postgres.md",
+    "Quick notes/Quick note - 22-11-2024 17.38.txt",
+    "Quick notes/Quick note - 22-11-2024 17.33.txt",
     "snippets/hide-app-ribbon.css",
     "snippets",
     "Files/Invert Colors Image.jpg",
@@ -218,8 +225,6 @@
     "Excalidraw/Scripts/Downloaded/Zoom to Fit Selected Elements.svg",
     "Excalidraw/Scripts/Downloaded/Expand rectangles vertically keep text centered.svg",
     "Excalidraw/Scripts/Downloaded",
-    "Excalidraw/Scripts",
-    "Courses/AI Devs 1/Lessons/20 — Nawet wtedy, gdy śpisz.md~",
-    "Courses/AI Devs 1/Lessons/17 — Zacznijmy od postaw.md~"
+    "Excalidraw/Scripts"
   ]
 }

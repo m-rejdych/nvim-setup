@@ -6,5 +6,7 @@
   "alwaysUpdateLinks": true,
   "newFileLocation": "folder",
   "livePreview": true,
-  "newFileFolderPath": "Zettelkasten/Source"
+  "newFileFolderPath": "Zettelkasten/Source",
+  "autoPairBrackets": false,
+  "autoPairMarkdown": false
 }

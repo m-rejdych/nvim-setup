@@ -1,0 +1,18 @@
+.workspace-leaf,
+.workspace-tab-header-container {
+  background: transparent !important;
+}
+
+.workspace-split.mod-root,
+.workspace-split.mod-root .view-content,
+.workspace-split.mod-root .view-header {
+  background: transparent !important;
+}
+
+.view-header-title-container:not(.mod-at-end):after {
+  background: transparent !important;
+}
+
+.is-translucent:not(.is-fullscreen) .titlebar, .is-translucent:not(.is-fullscreen) .app-container {
+    background-color: hsla(var(--base-h),var(--base-s), var(--base-l), 0.05);
+}
