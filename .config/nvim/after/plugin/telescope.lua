@@ -8,8 +8,6 @@ vim.cmd('nnoremap <silent><leader>qh <cmd>Telescope quickfixhistory<CR>')
 vim.cmd('nnoremap <silent>gn <cmd>bn<CR>')
 vim.cmd('nnoremap <silent>gp <cmd>bp<CR>')
 
-local actions = require('telescope.actions')
-
 require('telescope').setup {
   defaults = {
     file_ignore_patterns = {
