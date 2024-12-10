@@ -20,6 +20,12 @@ require('telescope').setup {
       "migraions",
       "^.git/",
     },
+    layout_strategy = 'bottom_pane',
+    layout_config = {
+      height = 0.6,
+    },
+    border = true,
+    sorting_strategy = "ascending",
   },
   pickers = {
     find_files = {
