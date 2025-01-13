@@ -11,29 +11,18 @@
             "id": "330c20438a3b90fb",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "595eac268940e0f5",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "Quick notes/Quick note - 01-12-2024 17.34.md",
+                "file": "Goals/Programming goals.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Quick note - 01-12-2024 17.34"
+              "title": "Programming goals"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -162,10 +151,28 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "595eac268940e0f5",
+  "active": "330c20438a3b90fb",
   "lastOpenFiles": [
-    "Quick notes/Quick note - 01-12-2024 17.34.md",
+    "Zettelkasten/Source/Cortex Agent.md",
+    "Goals/Work goals.md",
+    "Goals/Personal goals.md",
+    "Zettelkasten/Source/My Goals.md",
+    "Goals/Programming goals.md",
+    "Cooking/Recipes list.md",
+    "Quick notes/Sylwester Zakopane - 22-12-2024 21.08.md",
     "Private/Gift ideas/Natalia.md",
+    "Quick notes/Prezenty boże narodzenie 2024 - 01-12-2024 17.34.md",
+    "Templates/Project idea.md",
+    "Projects/Ideas/AI test generator.md",
+    "Quick notes/Some title - 11-12-2024 02.21.md",
+    "Quick notes/Quick note - 11-12-2024 02.20.md",
+    "Quick notes/This is test note - 08-12-2024 14.34.md",
+    "Quick notes/Prezenciki  - 10-12-2024 02.34.md",
+    "Quick notes/Quick note - 10-12-2024 02.31.md",
+    "Quick notes/Some shit  - 10-12-2024 02.31.md",
+    "Quick notes/Koszykarstwo  - 10-12-2024 02.28.md",
+    "Quick notes/Kazachstan - 10-12-2024 02.18.md",
+    "Quick notes/Koszykarstwo  - 10-12-2024 02.28md.txt",
     "Zettelkasten/Source/Prezentacja o AI - pomysły .md",
     "Quick notes/Quick note - 06-12-2024 02.32.md",
     "Quick notes/Death and life meaning - 28-11-2024 22.39.md",
@@ -173,23 +180,6 @@
     "Quick notes/5 steps for effective learning Huberman Lab - 28-11-2024 22.37.md",
     "Quick notes/Hybrid search - 23-11-2024 23.27.md",
     "Resources/Books list.md",
-    "Quick notes/Quick note - 26-11-2024 01.36.md",
-    "Quick notes/Quick note - 23-11-2024 20.56.md",
-    "Quick notes/Quick note - 23-11-2024 15.19.md",
-    "Quick notes/Quick note - 22-11-2024 18.57.md",
-    "Quick notes/Quick note - 22-11-2024 18.44.md",
-    "Quick notes/Quick note - 22-11-2024 18.52.md",
-    "Quick notes/Quick note - 22-11-2024 18.47.md",
-    "Quick notes/Quick note - 22-11-2024 18.49.md",
-    "Quick notes/Quick note - 22-11-2024 18.47-2.md",
-    "Quick notes/Quick note - 22-11-2024 18.36.md",
-    "Quick notes/Quick note - 22-11-2024 18.43.md",
-    "Quick notes/Quick note - 22-11-2024 18.42.md",
-    "Quick notes/Quick note - 22-11-2024 18.41-3.md",
-    "Quick notes/Quick note - 22-11-2024 18.41-2.md",
-    "Quick notes/Quick note - 22-11-2024 18.41.md",
-    "Quick notes/Quick note - 22-11-2024 18.40-3.md",
-    "Quick notes/Quick note - 22-11-2024 18.40-2.md",
     "Quick notes/25-10-2024 00.46.txt",
     "Quick notes/299-10-2024 00.38.txt",
     "Quick notes/---.txt",
@@ -208,7 +198,6 @@
     "Excalidraw",
     "tasks",
     "daily_notes",
-    "quick_notes",
-    "meetings"
+    "quick_notes"
   ]
 }

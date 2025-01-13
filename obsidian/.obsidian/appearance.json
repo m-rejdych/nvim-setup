@@ -5,10 +5,9 @@
   "interfaceFontFamily": "",
   "textFontFamily": "",
   "monospaceFontFamily": "",
-  "translucency": true,
+  "translucency": false,
   "enabledCssSnippets": [
     "hide-app-ribbon",
-    "Transparent",
     "Zen mode"
   ]
 }

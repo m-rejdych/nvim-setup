@@ -8,6 +8,8 @@ vim.cmd('nnoremap <silent><leader>qh <cmd>Telescope quickfixhistory<CR>')
 vim.cmd('nnoremap <silent>gn <cmd>bn<CR>')
 vim.cmd('nnoremap <silent>gp <cmd>bp<CR>')
 
+local actions = require('telescope.actions')
+
 require('telescope').setup {
   defaults = {
     file_ignore_patterns = {
@@ -17,15 +19,25 @@ require('telescope').setup {
       "target",
       "plugged",
       "package-lock.json",
-      "migraions",
+      "migrations",
       "^.git/",
     },
-    layout_strategy = 'bottom_pane',
-    layout_config = {
-      height = 0.6,
+--    layout_strategy = 'bottom_pane',
+--    layout_config = {
+--      height = 0.6,
+--    },
+--    border = true,
+--    sorting_strategy = "ascending",
+    mappings = {
+      i = {
+        ["<C-w>"] = actions.send_selected_to_qflist,
+        ["<C-q>"] = actions.send_to_qflist,
+      },
+      n = {
+        ["<C-w>"] = actions.send_selected_to_qflist,
+        ["<C-q>"] = actions.send_to_qflist,
+      },
     },
-    border = true,
-    sorting_strategy = "ascending",
   },
   pickers = {
     find_files = {

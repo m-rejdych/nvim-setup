@@ -100,15 +100,6 @@
       "key": "L"
     }
   ],
-  "obsidian-excalidraw-plugin:excalidraw-autocreate-and-embed-new-tab": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "E"
-    }
-  ],
   "omnisearch:show-modal": [
     {
       "modifiers": [
@@ -133,15 +124,6 @@
       "key": "."
     }
   ],
-  "obsidian-excalidraw-plugin:excalidraw-autocreate-newtab": [
-    {
-      "modifiers": [
-        "Alt",
-        "Mod"
-      ],
-      "key": "E"
-    }
-  ],
   "obsidian-excalidraw-plugin:universal-add-file": [
     {
       "modifiers": [
@@ -156,22 +138,6 @@
         "Ctrl"
       ],
       "key": "A"
-    }
-  ],
-  "obsidian-excalidraw-plugin:Downloaded/Box Selected Elements": [
-    {
-      "modifiers": [
-        "Ctrl"
-      ],
-      "key": "B"
-    }
-  ],
-  "obsidian-excalidraw-plugin:Downloaded/Box Each Selected Groups": [
-    {
-      "modifiers": [
-        "Ctrl"
-      ],
-      "key": "N"
     }
   ],
   "obsidian-excalidraw-plugin:Downloaded/Change shape of selected elements": [
@@ -279,6 +245,40 @@
         "Mod"
       ],
       "key": "Z"
+    }
+  ],
+  "obsidian-excalidraw-plugin:Downloaded/Box Each Selected Groups": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "B"
+    }
+  ],
+  "obsidian-excalidraw-plugin:Downloaded/Box Selected Elements": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "G"
+    }
+  ],
+  "obsidian-excalidraw-plugin:excalidraw-autocreate-newtab": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "E"
+    }
+  ],
+  "obsidian-excalidraw-plugin:excalidraw-autocreate-and-embed-new-tab": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "E"
     }
   ]
 }

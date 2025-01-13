@@ -1,5 +1,5 @@
 ---
-Name: "{{title}}"
+Name: "{{name}}"
 Date: "{{date}}"
 ---
 > tags: [[project-ideas]] [[projects]]
