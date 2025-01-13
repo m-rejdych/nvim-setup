@@ -36,9 +36,21 @@
               "icon": "lucide-file",
               "title": "Cortex Agent"
             }
+          },
+          {
+            "id": "789305b3f1697962",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Files/Drawing 2025-01-12 22.11.41.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-01-12 22.11.41.excalidraw"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -194,10 +206,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "0ab21cf0d5a0bcf7",
+  "active": "789305b3f1697962",
   "lastOpenFiles": [
-    "Files/Drawing 2025-01-12 22.11.41.excalidraw.md",
     "Zettelkasten/Source/Cortex Agent.md",
+    "Files/Drawing 2025-01-12 22.11.41.excalidraw.md",
     "Zettelkasten/Source/Project - Cortex.md",
     "Files/Project - Cortex 2024-07-29 20.48.41.excalidraw.md",
     "Zettelkasten/Source/AI Agent Project.md",
