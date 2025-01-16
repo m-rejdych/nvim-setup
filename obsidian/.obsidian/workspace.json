@@ -23,7 +23,37 @@
             }
           },
           {
-            "id": "0ab21cf0d5a0bcf7",
+            "id": "25e8c79d72339166",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Goals/Personal goals.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Personal goals"
+            }
+          },
+          {
+            "id": "976c8969814e0836",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Quick notes/Car repair expenses - 15-01-2025 19.03.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Car repair expenses - 15-01-2025 19.03"
+            }
+          },
+          {
+            "id": "6358cdd196b08f93",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -38,7 +68,7 @@
             }
           },
           {
-            "id": "789305b3f1697962",
+            "id": "67909edd4b9b5d5e",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
@@ -206,16 +236,22 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "789305b3f1697962",
+  "active": "976c8969814e0836",
   "lastOpenFiles": [
-    "Zettelkasten/Source/Cortex Agent.md",
+    "Goals/Personal goals.md",
     "Files/Drawing 2025-01-12 22.11.41.excalidraw.md",
+    "Goals/Programming goals.md",
+    "Zettelkasten/Source/Cortex Agent.md",
+    "Quick notes/Car repair expenses - 15-01-2025 19.03.md",
+    "Files/Pasted Image 20250115172143_869.png",
+    "Files/Pasted Image 20250115172127_205.png",
+    "Files/Pasted Image 20250115171958_266.png",
+    "Files/Pasted Image 20250115171935_097.png",
+    "Zettelkasten/Source/Planning my day, timeboxing - Structured app.md",
+    "Goals/Work goals.md",
     "Zettelkasten/Source/Project - Cortex.md",
     "Files/Project - Cortex 2024-07-29 20.48.41.excalidraw.md",
     "Zettelkasten/Source/AI Agent Project.md",
-    "Goals/Work goals.md",
-    "Goals/Personal goals.md",
-    "Goals/Programming goals.md",
     "Templates/Blank.md",
     "Zettelkasten/Source/My Goals.md",
     "Courses/AI Devs 1/Lessons/14 — Sprawdzisz się na produkcji?.md",
@@ -233,8 +269,6 @@
     "Quick notes/talking to szymon - 20-12-2024 01.40.md",
     "Quick notes/Talking to Szymon - 20-12-2024 01.39.md",
     "Quick notes/Note the things you did really good - 19-12-2024 01.10.md",
-    "Quick notes/Quick note - 19-12-2024 01.09.md",
-    "Quick notes/this test - 14-12-2024 19.06.md",
     "Quick notes/Koszykarstwo  - 10-12-2024 02.28md.txt",
     "Quick notes/Quick note - 22-11-2024 17.38.txt",
     "Quick notes/Quick note - 22-11-2024 17.33.txt",
@@ -249,10 +283,6 @@
     "Files/Pasted image 20241024234448.jpg",
     "Excalidraw/Scripts/Downloaded/Uniform size.svg",
     "Tasks/ai-devs-3",
-    "Excalidraw/Scripts/Downloaded/Elbow connectors.svg",
-    "Excalidraw/Scripts/Downloaded/Connect elements.svg",
-    "Excalidraw/Scripts/Downloaded/Convert selected text elements to sticky notes.svg",
-    "Excalidraw/Scripts/Downloaded/Zoom to Fit Selected Elements.svg",
-    "Excalidraw/Scripts/Downloaded/Expand rectangles vertically keep text centered.svg"
+    "Excalidraw/Scripts/Downloaded/Elbow connectors.svg"
   ]
 }

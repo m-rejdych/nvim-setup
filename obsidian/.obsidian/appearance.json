@@ -7,7 +7,6 @@
   "monospaceFontFamily": "",
   "translucency": false,
   "enabledCssSnippets": [
-    "hide-app-ribbon",
-    "Zen mode"
+    "hide-app-ribbon"
   ]
 }
