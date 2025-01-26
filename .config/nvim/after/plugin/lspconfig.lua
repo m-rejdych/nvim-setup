@@ -45,27 +45,29 @@ local on_attach = function(client, bufnr)
 --  augroup END
 --  ]], true)
 
--- DIAGNOSTIC BORDER
+-- BORDERS
 
   vim.diagnostic.config{
     float={border = 'single'}
   }
 
+  vim.cmd [[autocmd! ColorScheme * highlight NormalFloat guibg=#1f2335]]
+  vim.cmd [[autocmd! ColorScheme * highlight FloatBorder guifg=white]]
+
+  local hover = vim.lsp.buf.hover
+  vim.lsp.buf.hover = function()
+      return hover { border = 'single' }
+  end
+
+  local signature_help = vim.lsp.buf.signature_help
+  vim.lsp.buf.signature_help = function()
+      return signature_help { border = 'single' }
+  end
 end
 
 -- COMPLETION
 
 local capabilities = require('cmp_nvim_lsp').default_capabilities(vim.lsp.protocol.make_client_capabilities())
-
--- BORDERS
-
-vim.cmd [[autocmd! ColorScheme * highlight NormalFloat guibg=#1f2335]]
-vim.cmd [[autocmd! ColorScheme * highlight FloatBorder guifg=white]]
-
-local handlers =  {
-  ["textDocument/hover"] =  vim.lsp.with(vim.lsp.handlers.hover, {border = 'single'}),
-  ["textDocument/signatureHelp"] =  vim.lsp.with(vim.lsp.handlers.signature_help, {border = 'single'}),
-}
 
 -- SERVERS SETUP
 
