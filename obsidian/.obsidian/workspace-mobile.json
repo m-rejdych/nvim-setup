@@ -13,16 +13,56 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Quick notes/Car repair expenses - 15-01-2025 19.03.md",
+                "file": "Cooking/Recipes list.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Car repair expenses - 15-01-2025 19.03"
+              "title": "Recipes list"
+            }
+          },
+          {
+            "id": "d9a908393aed20df",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Projects/Ideas/Feed and articles aggregator.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Feed and articles aggregator"
+            }
+          },
+          {
+            "id": "de8206a6024c747d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Projects/Ideas/Prompt versioner.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Prompt versioner"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -151,17 +191,21 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "330c20438a3b90fb",
+  "active": "de8206a6024c747d",
   "lastOpenFiles": [
+    "Projects/Ideas/Feed and articles aggregator.md",
+    "Projects/Ideas/Prompt versioner.md",
+    "Cooking/Recipes list.md",
+    "Projects/Ideas/Feed ",
     "Goals/Personal goals.md",
     "Goals/Programming goals.md",
+    "Quick notes/Car repair expenses - 15-01-2025 19.03.md",
+    "Quick notes/Prezenty boże narodzenie 2024 - 01-12-2024 17.34.md",
     "Zettelkasten/Source/Cortex Agent.md",
     "Goals/Work goals.md",
     "Zettelkasten/Source/My Goals.md",
-    "Cooking/Recipes list.md",
     "Quick notes/Sylwester Zakopane - 22-12-2024 21.08.md",
     "Private/Gift ideas/Natalia.md",
-    "Quick notes/Prezenty boże narodzenie 2024 - 01-12-2024 17.34.md",
     "Templates/Project idea.md",
     "Projects/Ideas/AI test generator.md",
     "Quick notes/Some title - 11-12-2024 02.21.md",
@@ -177,9 +221,6 @@
     "Quick notes/Quick note - 06-12-2024 02.32.md",
     "Quick notes/Death and life meaning - 28-11-2024 22.39.md",
     "Quick notes/Quick note - 30-11-2024 17.54.md",
-    "Quick notes/5 steps for effective learning Huberman Lab - 28-11-2024 22.37.md",
-    "Quick notes/Hybrid search - 23-11-2024 23.27.md",
-    "Resources/Books list.md",
     "Quick notes/25-10-2024 00.46.txt",
     "Quick notes/299-10-2024 00.38.txt",
     "Quick notes/---.txt",
@@ -197,7 +238,6 @@
     "Excalidraw/Scripts",
     "Excalidraw",
     "tasks",
-    "daily_notes",
-    "quick_notes"
+    "daily_notes"
   ]
 }
