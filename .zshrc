@@ -89,6 +89,7 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 
 # Configure fzf
 source <(fzf --zsh)
+export FZF_DEFAULT_OPTS='--height 40% --tmux center,40% --layout reverse --border'
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
