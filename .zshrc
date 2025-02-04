@@ -87,6 +87,9 @@ export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest/bin
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 
+# Configure fzf
+source <(fzf --zsh)
+
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
 
@@ -110,6 +113,7 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias vim="/opt/homebrew/bin/nvim"
 alias notes="cd /Users/mrejdych/Library/Mobile\ Documents/iCloud~md~obsidian/Documents/Personal"
+alias obsdn="cd ~/Library/Mobile\ Documents/iCloud\~md\~obsidian/Documents/Personal/"
 
 # bun completions
 [ -s "/Users/mrejdych/.bun/_bun" ] && source "/Users/mrejdych/.bun/_bun"
