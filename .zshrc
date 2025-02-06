@@ -73,7 +73,8 @@ ZSH_THEME="robbyrussell"
 plugins=(git
          vi-mode
          zsh-syntax-highlighting
-         zsh-autosuggestions)
+         zsh-autosuggestions
+         fzf)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -88,8 +89,9 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 
 # Configure fzf
-source <(fzf --zsh)
 export FZF_DEFAULT_OPTS='--height 40% --tmux center,40% --layout reverse --border'
+bindkey -r '\ec'
+bindkey '\ed' fzf-cd-widget
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
