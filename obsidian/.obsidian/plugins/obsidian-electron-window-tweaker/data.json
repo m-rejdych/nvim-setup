@@ -1,6 +1,6 @@
 {
   "opacity": 1,
-  "alwaysOnTop": true,
+  "alwaysOnTop": false,
   "vibrancy": "popover",
   "trafficLightsPosX": 7,
   "trafficLightsPosY": 6
