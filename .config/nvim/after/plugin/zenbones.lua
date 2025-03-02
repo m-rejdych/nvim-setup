@@ -1,0 +1,3 @@
+-- vim.g.kanagawabones = { transparent_background = true }
+-- 
+-- vim.cmd("colorscheme kanagawabones")

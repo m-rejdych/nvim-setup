@@ -22,13 +22,17 @@ Plug 'mhartington/formatter.nvim'
 Plug 'nvim-lualine/lualine.nvim'
 Plug 'windwp/nvim-ts-autotag'
 Plug 'dart-lang/dart-vim-plugin'
+Plug 'rose-pine/neovim', { 'as': 'rose-pine' }
+Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
 Plug 'christoomey/vim-tmux-navigator'
+Plug 'sainnhe/gruvbox-material'
 Plug 'rebelot/kanagawa.nvim'
+Plug 'github/copilot.vim'
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && npx --yes yarn install' }
-"Plug 'rose-pine/neovim', { 'as': 'rose-pine' }
-"Plug 'sainnhe/gruvbox-material'
-"Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
-"Plug 'github/copilot.vim'
+Plug 'ramojus/mellifluous.nvim'
+Plug 'zenbones-theme/zenbones.nvim'
+Plug 'rktjmp/lush.nvim'
+Plug 'savq/melange-nvim'
 
 call plug#end()
 
@@ -83,10 +87,10 @@ set smarttab
 filetype plugin indent on
 set shiftwidth=2
 set tabstop=2
-set mouse= "disable mouse
 set ai "Auto indent
 set si "Smart indent
 set nowrap "No Wrap lines
+set mouse= "disable mouse
 set backspace=start,eol,indent
 " Finding files - Search down into subfolders
 set path+=**
@@ -208,12 +212,15 @@ augroup netrw_mapping
   autocmd filetype netrw call NetrwMapping()
 augroup END
 
+function! NetrwMapping()
+  nnoremap <silent> <buffer> <c-l> :TmuxNavigateRight<CR>
+endfunction
+
 nnoremap n nzzzv
 nnoremap N Nzzzv
 nnoremap <C-d> <C-d>zz
 nnoremap <C-u> <C-u>zz
 nnoremap J mzJ`z
-
 
 " Theme
 
@@ -224,4 +231,10 @@ if exists("&termguicolors") && exists("&winblend")
   highlight Normal     ctermbg=NONE guibg=NONE
   highlight LineNr     ctermbg=NONE guibg=NONE
   highlight SignColumn ctermbg=NONE guibg=NONE
+endif
+
+if exists('+termguicolors')
+  let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
+  let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
+  set termguicolors
 endif

@@ -1,0 +1,56 @@
+-- CUSTOM CONFIG
+-- Basic settings
+-- vim.g.gruvbox_material_transparent_background = 1;
+-- vim.g.gruvbox_material_background = 'soft';
+-- vim.g.gruvbox_material_foreground = 'material';
+-- vim.g.gruvbox_material_ui_contrast = 'low';
+-- vim.g.gruvbox_material_better_performance = 1;
+-- vim.g.gruvbox_material_sign_column_background = 'grey';
+-- vim.g.gruvbox_material_visual = 'grey background';
+-- vim.g.gruvbox_material_menu_selection_background = 'grey';
+-- vim.g.gruvbox_material_spell_foreground = 'none';
+-- vim.g.gruvbox_material_enable_bold = 1
+-- vim.g.gruvbox_material_disable_italic_comment = 0; -- Enable italic comments
+-- vim.g.gruvbox_material_colors_override = {
+--   red = { '#e08878', '167' },      -- Slightly darker vibrant red
+--   orange = { '#e0b080', '208' },   -- Slightly darker vibrant orange
+--   -- yellow = { '#e0d888', '214' },   -- Slightly darker vibrant yellow
+--   yellow = { '#d0c878', '214' },   -- Darker, less light yellow
+--   -- yellow = { '#c8c068', '214' },   -- Even darker, more muted yellow
+--   -- yellow = { '#d8cc70', '214' },   -- Slightly darker yellow with more saturation
+--   -- yellow = { '#ccc880', '214' },   -- Softer, less bright yellow
+--
+--   -- green = { '#b8d078', '142' },    -- Slightly darker vibrant green
+--   -- green = { '#a8c890', '142' },    -- New green option - more sage/olive toned
+--   -- green = { '#98c088', '142' },    -- More muted, olive-leaning green
+--   -- green = { '#90c0a0', '142' },    -- More teal-leaning soft green
+--   -- green = { '#b0c878', '142' },    -- Brighter, slightly yellow-green
+--
+--   -- green = { '#a0c088', '142' },    -- Slightly more olive
+--   -- green = { '#b0cc98', '142' },    -- Slightly lighter and more vibrant
+--   -- green = { '#a4c484', '142' },    -- More saturated, slightly darker
+--   green = { '#9cc088', '142' },    -- Slightly darker, more muted
+--   -- green = { '#acd098', '142' },    -- Slightly more yellow-green
+--   -- green = { '#a0c498', '142' },    -- Slightly more teal-leaning
+--   -- green = { '#b2c888', '142' },    -- Brighter with more yellow undertone
+--
+--   aqua = { '#90d0b8', '108' },     -- Slightly darker vibrant aqua
+--   blue = { '#8cc0b4', '109' },     -- Slightly darker vibrant blue
+--   purple = { '#d8b8c8', '175' },   -- Slightly darker vibrant purple
+--   bg_red = { '#d0bab0', '223' },   -- Keeping bg colors the same
+--   bg_green = { '#bcd0b0', '223' }, -- Keeping bg colors the same
+--   bg_blue = { '#b8caca', '223' }   -- Keeping bg colors the same
+-- }
+--
+-- -- Apply colorscheme (must be last)
+-- vim.cmd.colorscheme('melange')
+--
+-- -- Set Normal background to none
+-- vim.api.nvim_set_hl(0, "Normal", { bg = "NONE" })
+--
+-- -- Set NormalFloat background to none
+-- vim.api.nvim_set_hl(0, "NormalFloat", { bg = "NONE" })
+--
+-- -- Set NormalBorder (or FloatBorder) background to none
+-- vim.api.nvim_set_hl(0, "NormalBorder", { bg = "NONE" })
+-- vim.api.nvim_set_hl(0, "FloatBorder", { bg = "NONE" })

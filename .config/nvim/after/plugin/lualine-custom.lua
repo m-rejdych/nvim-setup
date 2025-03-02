@@ -96,7 +96,3 @@
 --   inactive_winbar = {},
 --   extensions = {'nvim-tree', 'fugitive', 'quickfix'}
 -- }
-
-require('lualine').setup({
-  options = { theme = 'melange' }
-})
